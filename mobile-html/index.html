@@ -1,0 +1,1990 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>mobile</title>
+    <link href="js/bootstrap/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="skins/default/style/screen.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="skins/default/style/font-awesome/css/font-awesome.min.css"/>
+    <link href="skins/default/style/dropdown.css" rel="stylesheet" type="text/css" />
+    <link href="js/colorbox/css/colorbox.css" rel="stylesheet" type="text/css" />
+    <link href="js/jquery_alerts/jquery.alerts.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="js/mmenu/jquery.mmenu.all.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="js/owl-carousel/owl.carousel.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="js/responsive-switch.min.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate-1.0.0.js"></script>
+    <script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/core.js"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <script type="text/javascript" src="js/floater_xlib.js"></script>
+    <script type="text/javascript" src="js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/colorbox/colorbox-min.js"></script>
+    <script type="text/javascript" src="js/jquery_alerts/jquery.alerts.js"></script>
+    <script type="text/javascript" src="js/mmenu/jquery.mmenu.min.all.js"></script>
+    <script type="text/javascript" src="js/owl-carousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.matchHeight.js"></script>
+    <script id='ext_javascript'></script>
+    <script>
+      $(document).ready(function() {
+      
+      MainContentW = 1000;
+      LeftBannerW = 120;
+      RightBannerW = 120;
+      LeftAdjust = 20;
+      RightAdjust = 20;
+      TopAdjust = 10;
+      
+        $(".rs-link").bind("mousedown click", function() {
+          if (window.screen.width >= 1024) {
+            alert("Try it on a mobile device (< 1024px wide) to see the what happens!");
+            return false;
+          }
+        });
+      
+      });
+      
+      jQuery(function() { /*maxheight items*/
+              jQuery.fn.matchHeight._update();
+              jQuery('.product-grid, .news-all-list, .hdtg, .tab-dttg, .news-bottom').matchHeight({});
+      });
+      
+    </script>
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link rel="stylesheet" href="js/FlexSlider/flexslider.css" type="text/css" />
+    <script type="text/javascript" src="js/FlexSlider/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="js/FlexSlider/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="js/FlexSlider/jquery.easing.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+          $('#owl-customer').owlCarousel({
+                 navigation : true, // Show next and prev buttons
+                 slideSpeed : 300,
+                 paginationSpeed : 400,
+                 pagination:false,
+                 items : 4,
+                 itemsDesktop : [1199,4],
+                 itemsDesktopSmall : [979,4],
+                 itemsTablet : [768,2],
+                 itemsMobile : [979,2]
+                 // 'singleItem:true' is a shortcut for:
+                 // items : 2,
+                 // itemsDesktop : false,
+                 // itemsDesktopSmall : false,
+                 // itemsTablet: false,
+                 // itemsMobile : false
+      
+             });
+      });
+      
+          $(window).load(function() {
+                 $('.flexslider').flexslider({
+                       animation: 'slide',
+                       directionNav: true
+                 });
+          });
+        
+      $(document).ready(function() {
+          $('#testimonials_owl').owlCarousel({
+                 navigation : true, // Show next and prev buttons
+                 slideSpeed : 300,
+                 paginationSpeed : 400,
+                 singleItem:true,
+                 pagination:false
+                 // 'singleItem:true' is a shortcut for:
+                 // items : 1,
+                 // itemsDesktop : false,
+                 // itemsDesktopSmall : false,
+                 // itemsTablet: false,
+                 // itemsMobile : false
+      
+             });
+      });
+      
+    </script>
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script>
+    // (function(d, s, id) {
+    //   var js, fjs = d.getElementsByTagName(s)[0];
+    //   if (d.getElementById(id)) return;
+    //   js = d.createElement(s); js.id = id;
+    //   js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.5&appId="+facebook_appId;
+    //   fjs.parentNode.insertBefore(js, fjs);
+    //   }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div id="vnt-wrapper">
+      <div class="header_mobile">
+        <div id="dl-menu-mobile" class="container nav-fly-bound nav-fly-bound-mtb dl-menuwrapper">
+          <a class="dl-trigger toggle-fly glyphicon glyphicon-align-justify" href="#mmenu"></a>
+          <div class="logo-top">
+            <h1><a onmousedown="return rwt(this,'advertise',1)" href='index.html' target='_self' title='Xuân tình mobile'><img  src='http://xtmobile.vn/vnt_upload/weblink/logo.png' width='260' alt='Xuân tình mobile'  class='png' /></a><strong style="display: none">XTmobile | Hệ thống bán lẻ điện thoại xách tay giá rẻ</strong> </h1>
+          </div>
+          <i class="icon-search fa fa-search fa-2x"></i>
+        </div>
+      </div>
+      <div class="bar_top">
+        <div class="container">
+          <div class="row relative">
+            <div class="bar_top_hottline col-md-6 col-sm-6 col-xs-12"><span>HOT LINE: </span>Đà Nẵng: 0901963222 - Hồ Chí Minh: 0933888634</div>
+            <div class="bar_top_right col-md-6 col-sm-6 col-xs-12 nopadding">
+              <div class="header-tool">
+                <div class="box_member">
+                  <a href="javascript:void(0)" onclick="popupLogin('')" title="Đăng nhập" class="btn_login">Đăng nhập</a>
+                  <a href="javascript:void(0)" onclick="popupRegister('')" title="Đăng ký" class="btn_register">Đăng ký</a>
+                </div>
+              </div>
+              <ul class="nav_header">
+                <li><a href="bang-gia.html" target="_self">Bảng Giá</a></li>
+                <li><a href="lien-he.html" target="_self">Liên hệ</a></li>
+              </ul>
+              <div class="link-videopage">
+                <a class="lik-vidpage" href="video.html" data-target=".video-tabs">xtmobile's channel</a>
+                <section class="video-tabs" style="display: none;">
+                  <ul class="video-navtab">
+                    <li><a href='video/gioi-thieu-san-pham-moi-1.html'><span>Giới Thiệu Sản Phẩm Mới</span></a></li>
+                    <li><a href='video/dap-hop-va-tren-tay-2.html'><span>Đập hộp và Trên Tay</span></a></li>
+                    <li><a href='video/tren-tay-va-dung-thu-3.html'><span>Đánh giá và trải nghiệm</span></a></li>
+                    <li><a href='video/loa-di-dong-4.html'><span>So sánh tính năng điện thoại</span></a></li>
+                    <li class ='last'><a href='video/ve-xtmobile-8.html'><span>Về XTmobile</span></a></li>
+                  </ul>
+                  <div class="vide-contenttab">
+                    <ul class="list-vitem">
+                      <li class="v-item">
+                        <a href="video/185/Ne%CC%82n%20mua%20Samsung%20Galaxy%20S7%20S7%20Edge%20chi%CC%81nh%20ha%CC%83ng%20hay%20xa%CC%81ch%20tay.html">
+                          <figure>
+                            <img  src="http://xtmobile.vn/vnt_upload/video/06_2016/thumbs/(184x105)_1465388014.jpg"   alt='Nên mua Samsung Galaxy S7 S7 Edge chính hãng hay xách tay' title='Nên mua Samsung Galaxy S7 S7 Edge chính hãng hay xách tay'  />
+                            <span class="icon-play"> </span>
+                          </figure>
+                          <h4>Nên mua Samsung Galaxy S7 S7 Edge chính hãng hay xách tay</h4>
+                        </a>
+                      </li>
+                      <li class="v-item">
+                        <a href="video/184/Ne%CC%82n%20mua%20LG%20V10%20hay%20Samsung%20Galaxy%20Note%205.html">
+                          <figure>
+                            <img  src="http://xtmobile.vn/vnt_upload/video/06_2016/thumbs/(184x105)_1465387981.jpg"   alt='Nên mua LG V10 hay Samsung Galaxy Note 5' title='Nên mua LG V10 hay Samsung Galaxy Note 5'/>
+                            <span class="icon-play"> </span>
+                          </figure>
+                          <h4>Nên mua LG V10 hay Samsung Galaxy Note 5</h4>
+                        </a>
+                      </li>
+                      <li class="v-item">
+                        <a href="video/183/Ne%CC%82n%20mua%20s6%20edge%20plus%20hay%20s7%20edg.html">
+                          <figure>
+                            <img  src="http://xtmobile.vn/vnt_upload/video/06_2016/thumbs/(184x105)_1465387942.jpg"   alt='Nên mua s6 edge plus hay s7 edg' title='Nên mua s6 edge plus hay s7 edg'/>
+                            <span class="icon-play"> </span>
+                          </figure>
+                          <h4>Nên mua s6 edge plus hay s7 edg</h4>
+                        </a>
+                      </li>
+                      <li class="v-item">
+                        <a href="video/182/Mo%CC%9B%CC%89%20ho%CC%A3%CC%82p%20Samsung%20Galaxy%20S7%20Edge%20G935S%20Ha%CC%80n%20Quo%CC%82%CC%81c%20ma%CC%80u%20Tra%CC%86%CC%81ng.html">
+                          <figure>
+                            <img  src="http://xtmobile.vn/vnt_upload/video/06_2016/thumbs/(184x105)_1465387902.jpg"   alt='Mở hộp Samsung Galaxy S7 Edge G935S Hàn Quốc màu Trắng' title='Mở hộp Samsung Galaxy S7 Edge G935S Hàn Quốc màu Trắng'/>
+                            <span class="icon-play"> </span>
+                          </figure>
+                          <h4>Mở hộp Samsung Galaxy S7 Edge G935S Hàn Quốc màu Trắng</h4>
+                        </a>
+                      </li>
+                      <li class="v-item">
+                        <a href="video/181/Tre%CC%82n%20tay%20Samsung%20Galaxy%20S7%20Edge%20Pink%20Gold%20%C4%90a%CC%82%CC%80u%20tie%CC%82n%20ta%CC%A3i%20Vie%CC%A3%CC%82t%20Nam.html">
+                          <figure>
+                            <img  src="http://xtmobile.vn/vnt_upload/video/06_2016/thumbs/(184x105)_1465387868.jpg"   alt='Trên tay Samsung Galaxy S7 Edge Pink Gold Đầu tiên tại Việt Nam' title='Trên tay Samsung Galaxy S7 Edge Pink Gold Đầu tiên tại Việt Nam'/>
+                            <span class="icon-play"> </span>
+                          </figure>
+                          <h4>Trên tay Samsung Galaxy S7 Edge Pink Gold Đầu tiên tại Việt Nam</h4>
+                        </a>
+                      </li>
+                      <li class="v-item">
+                        <a href="video/179/nen-mua-note-5-xach-tay-han-quoc-hay-note-5-chinh-hang.html">
+                          <figure>
+                            <img  src="http://xtmobile.vn/vnt_upload/video/03_2016/thumbs/(184x105)_1447951739.jpg"   alt='Nên mua Note 5 Xách Tay Hàn Quốc hay Note 5 Chính Hãng' title='Nên mua Note 5 Xách Tay Hàn Quốc hay Note 5 Chính Hãng'/>
+                            <span class="icon-play"> </span>
+                          </figure>
+                          <h4>Nên mua Note 5 Xách Tay Hàn Quốc hay Note 5 Chính Hãng</h4>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <header class="header">
+        <div id="vnt-header" class="container">
+          <div class="row">
+            <div class="logo col-md-3 col-sm-3 col-xs-12">
+              <h1>
+                <a onmousedown="return rwt(this,'advertise',1)" href='index.html' target='_self' title='Xuân tình mobile'>
+                <img  src='http://xtmobile.vn/vnt_upload/weblink/logo.png' width='260' alt='Xuân tình mobile'  class='png' />
+                </a>
+                <strong style="display: none">XTmobile | Hệ thống bán lẻ điện thoại xách tay giá rẻ</strong>
+              </h1>
+            </div>
+            <div class="headert_search col-md-3 col-sm-3 col-xs-12">
+              <div class="box_search">
+                <script language="javascript" >
+                  function check_search(f)
+                  {
+                    var key_default = "Bạn muốn tìm gì ?" ;
+                    var keyword = f.keyword.value;    
+                    var key_len = f.keyword.value.length;
+                    if( (keyword==key_default) || (keyword=='') )   {
+                      alert("Vui lòng nhập từ khóa");
+                      f.keyword.focus();
+                      return false;
+                    }
+                    if( key_len<2 ){
+                      alert("Từ khóa tới thiểu là 2 ký tự");
+                      f.keyword.focus();
+                      return false;
+                    } 
+                    return true;
+                  }
+                  
+                  
+                </script>
+                <form id="formSearch" name="formSearch" method="post" action="/san-pham/search/" onSubmit="return check_search(this);" autocomplete="off">
+                  <input name="do_search" value="1" type="hidden" />
+                  <input name="keyword" id="search-keyword" type="text" class="text_search"  placeholder="Bạn muốn tìm gì ?" value="" autocomplete="off" onkeydown="CheckTimer()" onkeyup="SuggestSearch(event);" />
+                  <input type="hidden" id="fpc_id" name="fpc_id">
+                  <span class="input-group-btn">
+                  <button  id="do_submit" name="do_submit" type="submit" class="btn_search" value="Tìm kiếm" ></button>
+                  </span>
+                </form>
+                <div id="SuggestSearch"></div>
+                <div class="clear"></div>
+              </div>
+            </div>
+            <div class="palo-service col-md-6 col-sm-6 col-xs-12 nopadding-right">
+              <div class="col-md-3 col-sm-3 col-xs-12 nopadding-left">
+                <a data-original-title="Chúng tôi miễn phí giao hàng trong HCM từ 3h - 24h" data-placement="bottom" data-toggle="tooltip" > <img src="http://xtmobile.vn/skins/default/images/icon_giaohang.png" title="Miễn phí giao hàng" />
+                <span>Miễn phí giao hàng</span></a>
+              </div>
+              <div class="col-md-3 col-sm-3 col-xs-12 nopadding">
+                <a data-original-title="Bạn có thể đổi trả hàng trong vòng 15 ngày kể từ ngày mua hàng và hoàn toàn miễn phí" data-placement="bottom" data-toggle="tooltip" >
+                <img src="http://xtmobile.vn/skins/default/images/icon_doitra.png" title="15 ngày đổi trả hàng" />
+                <span>15 ngày đổi trả hàng</span>
+                </a>
+              </div>
+              <div class="col-md-3 col-sm-3 col-xs-12 nopadding-right">
+                <a data-original-title="Chúng tôi sẽ cài đặt phần mềm cho bạn hoàn toàn miễn phí trọn đời" data-placement="bottom" data-toggle="tooltip" >
+                <img src="http://xtmobile.vn/skins/default/images/icon_caidat.png" title="Cài đặt miễn phí 100%" />
+                <span>Cài đặt miễn phí 100%</span>
+                </a>
+              </div>
+              <div class="col-md-3 col-sm-3 col-xs-12 nopadding">
+                <a data-original-title="Chúng tôi sẽ mang lại sự hài lòng cho bạn" data-placement="bottom" data-toggle="tooltip" >
+                <img src="http://xtmobile.vn/skins/default/images/icon_camket.png" title="Cam kết hài lòng 100%" />
+                <span>Cam kết hài lòng 100%</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div_menu">
+          <div id="vnt-menutop" class="header_nav">
+            <div class="container">
+              <div class="menutop row">
+                <ul class="dropdown">
+                  <li id="nav_home"><a href="index.html"  class="nav_main_item current" >Trang chủ</a></li>
+                  <li id='menu_1'>
+                    <a href="dien-thoai.html" target="_self">Điện thoại</a>
+                    <ul>
+                      <li class="first" style='widht:20%'>
+                        <span class='sub_title'>Hãng sản xuất</span>
+                        <ul>
+                          <li><a href="LG.html" target="_self"><span>LG</span></a></li>
+                          <li><a href="samsung.html" target="_self"><span>Samsung</span></a></li>
+                          <li><a href="HTC.html" target="_self"><span>HTC</span></a></li>
+                          <li><a href="Sony.html" target="_self"><span>Sony</span></a></li>
+                          <li><a href="SKY.html" target="_self"><span>SKY</span></a></li>
+                          <li><a href="asus.html" target="_self"><span>ASUS</span></a></li>
+                          <li><a href="xiaomi.html" target="_self"><span>Xiaomi</span></a></li>
+                          <li><a href="casio.html" target="_self"><span>Casio</span></a></li>
+                          <li><a href="motorola.html" target="_self"><span>Motorola</span></a></li>
+                          <li><a href="blackberry.html" target="_self"><span>Blackberry</span></a></li>
+                          <li><a href="oppo.html" target="_self"><span>OPPO</span></a></li>
+                          <li><a href="lenovo.html" target="_self"><span>Lenovo</span></a></li>
+                          <li><a href="iphone-6-plus.html" target="_self"><span>IPhone 6 Plus</span></a></li>
+                          <li><a href="iphone-6.html" target="_self"><span>IPhone 6</span></a></li>
+                          <li><a href="iphone-5-5s-5c.html" target="_self"><span>IPhone 5-5S-5C</span></a></li>
+                          <li><a href="iphone-4s.html" target="_self"><span>IPhone 4s</span></a></li>
+                          <li><a href="oneplus.html" target="_self"><span>Oneplus</span></a></li>
+                          <li><a href="iphone-6s.html" target="_self"><span>iPhone 6s</span></a></li>
+                          <li><a href="iphone-6s-plus-2015.html" target="_self"><span>iPhone 6s Plus</span></a></li>
+                          <li><a href="luna.html" target="_self"><span>Luna</span></a></li>
+                        </ul>
+                      </li>
+                      <li  style='widht:20%'>
+                        <span class='sub_title'>Mức giá</span>
+                        <ul>
+                          <li><a href="dien-thoai/index-list_price=3000000.html" target="_self"><span>Dưới 3 triệu</span></a></li>
+                          <li><a href="dien-thoai/index-list_price=5000000.html" target="_self"><span>Dưới 5 triệu</span></a></li>
+                          <li><a href="dien-thoai/index-list_price=7000000.html" target="_self"><span>Dưới 7 triệu</span></a></li>
+                          <li><a href="dien-thoai/index-list_price=9000000.html" target="_self"><span>Dưới 9 triệu</span></a></li>
+                          <li><a href="dien-thoai/index-list_price=12000000.html" target="_self"><span>Dưới 12 triệu</span></a></li>
+                          <li><a href="dien-thoai/index-list_price=12000001-max.html" target="_self"><span>Trên 12 triệu</span></a></li>
+                        </ul>
+                      </li>
+                      <li  style='widht:20%'>
+                        <span class='sub_title'>Tính năng</span>
+                        <ul>
+                          <li><a href="dien-thoai/index-option_search=1.html" target="_self"><span>Chống nước</span></a></li>
+                          <li><a href="dien-thoai/index-option_search=5.html" target="_self"><span>Pin Khủng</span></a></li>
+                          <li><a href="dien-thoai/index-option_search=6.html" target="_self"><span>Camera Tự Sướng</span></a></li>
+                          <li><a href="dien-thoai/index-option_search=13.html" target="_self"><span>Chụp hình đẹp</span></a></li>
+                          <li><a href="dien-thoai/index-option_search=14.html" target="_self"><span>Màn hình siêu nét</span></a></li>
+                          <li><a href="dien-thoai/index-option_search=15.html" target="_self"><span>Chống Va Đập</span></a></li>
+                          <li><a href="dien-thoai/index-option_search=10.html" target="_self"><span>2 SIM</span></a></li>
+                          <li><a href="dien-thoai/index-option_search=16.html" target="_self"><span>Lướt Web/Facebook</span></a></li>
+                        </ul>
+                      </li>
+                      <li  style='widht:20%'>
+                        <span class='sub_title'>Màn hình</span>
+                        <ul>
+                          <li><a href="dien-thoai/index-screen=1.html" target="_self"><span>Dưới 4 inch</span></a></li>
+                          <li><a href="dien-thoai-screen=2.html" target="_self"><span>4 - 5 inch</span></a></li>
+                          <li><a href="dien-thoai/index-screen=3.html" target="_self"><span>5 - 6 inch</span></a></li>
+                          <li><a href="dien-thoai/index-screen=4.html" target="_self"><span>Trên 6 inch</span></a></li>
+                        </ul>
+                      </li>
+                      <li  style='widht:20%'>
+                        <span class='sub_title'>Hệ điều hành</span>
+                        <ul>
+                          <li><a href="dien-thoai/index-osID=10.html" target="_self"><span>Android</span></a></li>
+                          <li><a href="dien-thoai/index-osID=11.html" target="_self"><span>iOS (iPhone)</span></a></li>
+                          <li><a href="dien-thoai/index-osID=13.html" target="_self"><span>Windows Phone</span></a></li>
+                          <li><a href="dien-thoai/index-osID=30.html" target="_self"><span>Blackberry</span></a></li>
+                          <li><a href="dien-thoai/index-osID=31.html" target="_self"><span>Hệ điều hành khác</span></a></li>
+                        </ul>
+                      </li>
+                      <div class="clear"></div>
+                    </ul>
+                  </li>
+                  <li id='menu_2'><a href="may-tinh-bang.html" target="_self">Máy tính bảng</a></li>
+                  <li id='menu_4'><a href="phu-kien.html" target="_self">PHỤ KIỆN</a></li>
+                  <li id='menu_5'><a href="may-dung-roi.html" target="_self">MÁY DÙNG RỒI</a></li>
+                  <li id='menu_6'><a href="dich-vu.html" target="_self">DỊCH VỤ</a></li>
+                  <li id='menu_99'><a href="ban-tra-gop.html" target="_self">Bán trả góp</a></li>
+                  <li id='menu_42'><a href="tin-tuc.html" target="_self">tin tức</a></li>
+                  <li id='menu_8'><a href="khuyen-mai.html" target="_self">Khuyến Mãi<span class="saleoff">sale off</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div id="vnt-container" class="container">
+        <div class="banner_news row">
+          <div class="column Column1 col-md-8 column-first nopadding">
+            <div id="flexslider_middle" class="flexslider">
+              <ul class="slides">
+                <li><a onmousedown="return rwt(this,'advertise',75)" href="https://docs.google.com/forms/d/1zhhKyGfo2ebh9AuJI2u8fujNNC0jsA_Ht1D9UUdpXNM/viewform" target="_blank"  ><img src="http://xtmobile.vn/vnt_upload/weblink/banner/4-2016/baner_trang_chY.jpg" alt=""  /></a></li>
+                <li><a onmousedown="return rwt(this,'advertise',59)" href="http://" target="_blank"  ><img src="http://xtmobile.vn/vnt_upload/weblink/banner/2-2016/tra-gop_2.png" alt="Xtmobile hỗ trợ trả góp"  /></a></li>
+                <li><a onmousedown="return rwt(this,'advertise',65)" href="samsung-galaxy-s7.html" target="_blank"  ><img src="http://xtmobile.vn/vnt_upload/weblink/BANNER-HOME.jpg" alt=""  /></a></li>
+                <li><a onmousedown="return rwt(this,'advertise',66)" href="https://www.facebook.com/groups/1725984534314101/" target="_blank"  ><img src="http://xtmobile.vn/vnt_upload/weblink/hYi_s7_edge_s7.jpg" alt=""  /></a></li>
+                <li><a onmousedown="return rwt(this,'advertise',61)" href="huong-dan-mua-hang-online.html" target="_blank"  ><img src="http://xtmobile.vn/vnt_upload/weblink/banner/3-2016/banner-home.png" alt=""  /></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="column Column2 col-md-4 column-last nopadding">
+            <div class='news-tech'>
+              <h3><a href="tin-tuc.html" >Tin công nghệ</a></h3>
+              <ul class="list-newstech">
+                <li>
+                  <a href='nguoi-dung-iphone-ipad-khong-the-bo-qua-8-ung-dung-mien-phi-nay.html' >
+                  <img  src="http://xtmobile.vn/vnt_upload/news/06_2016/16/thumbs/500_nguoi-dung-iphone-ipad-khong-the-bo-qua-8-ung-dung-mien-phi-nay.8.jpg"   alt='Người dùng iPhone iPad không thể bỏ qua 8 ứng dụng miễn phí này' title='Người dùng iPhone iPad không thể bỏ qua 8 ứng dụng miễn phí này'  />
+                  </a>
+                  <a href='nguoi-dung-iphone-ipad-khong-the-bo-qua-8-ung-dung-mien-phi-nay.html'> Người dùng iPhone iPad không thể bỏ qua 8 ứng ...</a>
+                  <p class='note'>4 lượt xem | 16/06/2016</p>
+                </li>
+                <li>
+                  <a href='thiet-ke-dep-cua-dien-thoai-iphone-7-phien-ban-mau-xanh.html' >
+                  <img  src="http://xtmobile.vn/vnt_upload/news/06_2016/15/thumbs/500_iphone-7-mau-xanh.jpg"   alt='Thiết kế đẹp của điện thoại iPhone 7 phiên bản màu xanh' title='Thiết kế đẹp của điện thoại iPhone 7 phiên bản màu xanh'  />
+                  </a>
+                  <a href='thiet-ke-dep-cua-dien-thoai-iphone-7-phien-ban-mau-xanh.html'> Thiết kế đẹp của điện thoại iPhone 7 phiên ...</a>
+                  <p class='note'>96 lượt xem | 15/06/2016</p>
+                </li>
+                <li>
+                  <a href='dien-thoai-samsung-galaxy-note-7-se-khong-chay-he-android-n-khi-ra-mat.html' >
+                  <img  src="http://xtmobile.vn/vnt_upload/news/06_2016/11/thumbs/500_samsung-galaxy-note-7-khong-chay-android-n.png"   alt='Điện thoại Samsung Galaxy Note 7 sẽ không chạy hệ Android N khi ra mắt' title='Điện thoại Samsung Galaxy Note 7 sẽ không chạy hệ Android N khi ra mắt'  />
+                  </a>
+                  <a href='dien-thoai-samsung-galaxy-note-7-se-khong-chay-he-android-n-khi-ra-mat.html'> Điện thoại Samsung Galaxy Note 7 sẽ không chạy ...</a>
+                  <p class='note'>863 lượt xem | 11/06/2016</p>
+                </li>
+                <li class='last' >
+                  <a href='bat-ngo-khi-chiec-dien-thoai-iphone-6s-chay-android-6-0.html' >
+                  <img  src="http://xtmobile.vn/vnt_upload/news/06_2016/11/thumbs/500_dien-thoai-iphone-6s.jpg"   alt='Bất ngờ khi chiếc điện thoại iPhone 6s chạy Android 6.0' title='Bất ngờ khi chiếc điện thoại iPhone 6s chạy Android 6.0'  />
+                  </a>
+                  <a href='bat-ngo-khi-chiec-dien-thoai-iphone-6s-chay-android-6-0.html'> Bất ngờ khi chiếc điện thoại iPhone 6s chạy ...</a>
+                  <p class='note'>373 lượt xem | 11/06/2016</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <section class="newshot-block row" >
+          <div class="col-md-6 col-sm-6 col-xs-12 block">
+            <div class="block-inner">
+              <a class='table' onmousedown="return rwt(this,'advertise',44)" href='samsung-galaxy-note-5.html' target='_blank' title='Samsung Galaxy Note 5'>
+                <div class='inner'>
+                  <h3>Samsung Galaxy Note 5</h3>
+                  <span>Giá rẻ nhất thị trường</span>
+                  <i class='fa fa-angle-right'></i>
+                </div>
+              </a>
+              <figure>
+                <div class="frame">
+                  <span> </span>
+                </div>
+                <img src="http://xtmobile.vn/vnt_upload/weblink/note5-newhot.jpg" alt="Samsung Galaxy Note 5" />
+              </figure>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12 block last">
+            <div class="block-inner">
+              <a class='table' onmousedown="return rwt(this,'advertise',50)" href='lg-v10-2-sim-h961n.html' target='_blank' title='LG V10 Máy Mới'>
+                <div class='inner'>
+                  <h3>LG V10 Máy Mới</h3>
+                  <span>Hai màn hình độc đáo - Chất lượng uy tín</span>
+                  <i class='fa fa-angle-right'></i>
+                </div>
+              </a>
+              <figure>
+                <div class="frame"><span></span></div>
+                <img src="http://xtmobile.vn/vnt_upload/weblink/v10.jpg" alt="LG V10 Máy Mới" />
+              </figure>
+            </div>
+          </div>
+        </section>
+        <div class="div_banner_advertise row">
+          <div class='col_banner_main'>
+            <div class='pic_adv'>
+              <a onmousedown="return rwt(this,'advertise',83)" href='lg-wach-urbane-2nd-edition-lte.html' target='_blank' title='Đồng hồ thông minh LG Watch Urbane 2nd'>
+                <img  src='http://xtmobile.vn/vnt_upload/weblink/lg_watch_2.png'  alt='Đồng hồ thông minh LG Watch Urbane 2nd'  class='png' />
+                <div class='text'>
+                  <h3>Đồng hồ thông minh LG Watch Urbane 2nd</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class='col_banner_main'>
+            <div class='pic_adv'>
+              <a onmousedown="return rwt(this,'advertise',81)" href='samsung-galaxy-s7-edge.html' target='_blank' title='Samsung S7 Edge Màu Hồng Bất ngờ giảm giá 3 triệu'>
+                <img  src='http://xtmobile.vn/vnt_upload/weblink/s7_edge_pink_gold.jpg'  alt='Samsung S7 Edge Màu Hồng Bất ngờ giảm giá 3 triệu'  class='png' />
+                <div class='text'>
+                  <h3>Samsung S7 Edge Màu Hồng Bất ngờ giảm giá 3 triệu</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class='col_banner_main'>
+            <div class='pic_adv'>
+              <a onmousedown="return rwt(this,'advertise',47)" href='lg-v10-2-sim-h961n.html' target='_blank' title='LG V10 Bản 2 sim Lưng Da, Viền mạ vàng 20K'>
+                <img  src='http://xtmobile.vn/vnt_upload/weblink/Untitled-3.jpg'  alt='LG V10 Bản 2 sim Lưng Da, Viền mạ vàng 20K'  class='png' />
+                <div class='text'>
+                  <h3>LG V10 Bản 2 sim Lưng Da, Viền mạ vàng 20K</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div id="vnt-content">
+          <div class="main row">
+            <div class="box_pro_main">
+              <div class="box_title_pro">
+                <h3><b>Mới <span>có hàng</span></b></h3>
+              </div>
+              <div class="box-content">
+                <div id="List_Product" class="grid-bound grid-bound-home">
+                  <div class='item1 col-xs-6 nopadding product-grid' >
+                    <div class='boxItem' >
+                      <a href="samsung-galaxy-s7-edge-batman.html" title='Samsung Galaxy S7 Edge Batman' ><img  src="http://xtmobile.vn/vnt_upload/product/Hinh_DT/SamSung/s7_edge_batman/thumbs/(300x300)_crop_s7_edge_batman.png"   alt='Samsung Galaxy S7 Edge Batman' title='Samsung Galaxy S7 Edge Batman'  /></a>
+                      <h3><a href="samsung-galaxy-s7-edge-batman.html"  title='Samsung Galaxy S7 Edge Batman'>Samsung Galaxy S7 Edge Batman</a> </h3>
+                      <p class="price">49,990,000 đ</p>
+                      <div class="product-hover">
+                        <a href="samsung-galaxy-s7-edge-batman.html" title="Samsung Galaxy S7 Edge Batman">
+                          <h3 title="Samsung Galaxy S7 Edge Batman">Samsung Galaxy S7 Edge Batman</h3>
+                          <p class="price">49,990,000 đ</p>
+                          <div class="km">
+                            <p style="line-height: 20.8px;">
+                              <img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" />
+                              <span style="line-height: 20.8px;">&nbsp;Tặng Sạc NHANH Không Dây Samsung S7 EDGE trị giá 1.000.000 VND</span>
+                            </p>
+                            <p style="line-height: 20.8px;">
+                              <img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" />
+                              <span style="line-height: 20.8px;">&nbsp;</span>
+                              <span style="line-height: 20.8px;">Tặng Gậy Tự Sướng trị giá 150.000 VND</span>
+                            </p>
+                            <p style="line-height: 20.8px;">
+                              <img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" />
+                              <span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span>
+                            </p>
+                          </div>
+                        </a>
+                        <a href="samsung-galaxy-s7-edge-batman.html" class="more">Xem ngay</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='item1 col-xs-6 nopadding product-grid' >
+                    <div class='boxItem' >
+                      <span class="icon-product" style="background: #c20202; border: 1px solid #ffffff; color:#ffffff;">NEW</span>
+                      <a href="lg-wach-urbane-2nd-edition-lte.html" title='LG Wach Urbane 2nd EDITION ( LTE )' ><img  src="http://xtmobile.vn/vnt_upload/product/06_2016/thumbs/(300x300)_crop_lg-watch-urbane-2-01.png"   alt='LG Wach Urbane 2nd EDITION ( LTE )' title='LG Wach Urbane 2nd EDITION ( LTE )'  /></a>
+                      <h3><a href="lg-wach-urbane-2nd-edition-lte.html"  title='LG Wach Urbane 2nd EDITION ( LTE )'>LG Wach Urbane 2nd EDITION ( LTE )</a> </h3>
+                      <p class="price">7,590,000 đ</p>
+                      <div class="product-hover">
+                        <a href="lg-wach-urbane-2nd-edition-lte.html" title="LG Wach Urbane 2nd EDITION ( LTE )">
+                          <h3 title="LG Wach Urbane 2nd EDITION ( LTE )">LG Wach Urbane 2nd EDITION ( LTE )</h3>
+                          <p class="price">7,590,000 đ</p>
+                          <div class="km">
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Giảm 20% phụ kiện ( ốp lưng, bao da...).</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;</span><span style="line-height: 20.8px;">Miễn phí 1 năm cài phần mềm.</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                          </div>
+                        </a>
+                        <a href="lg-wach-urbane-2nd-edition-lte.html" class="more">Xem ngay</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='item1 col-xs-6 nopadding product-grid' >
+                    <div class='boxItem' >
+                      <span class="icon-product" style="background: #eb1010; border: 1px solid #fcf7fc; color:#fcf7fc;">Giảm Giá</span>
+                      <a href="samsung-galaxy-s7-edge-mau-hong-pink-gold.html" title='Samsung Galaxy S7 Edge Màu Hồng ( Pink Gold )' ><img  src="http://xtmobile.vn/vnt_upload/product/05_2016/thumbs/(300x300)_crop_500_Untitled_2.jpg"   alt='Samsung Galaxy S7 Edge Màu Hồng ( Pink Gold )' title='Samsung Galaxy S7 Edge Màu Hồng ( Pink Gold )'  /></a>
+                      <h3><a href="samsung-galaxy-s7-edge-mau-hong-pink-gold.html"  title='Samsung Galaxy S7 Edge Màu Hồng ( Pink Gold )'>Samsung Galaxy S7 Edge Màu Hồng ( Pink Gold )</a> </h3>
+                      <p class="price">14,990,000 đ</p>
+                      <div class="product-hover">
+                        <a href="samsung-galaxy-s7-edge-mau-hong-pink-gold.html" title="Samsung Galaxy S7 Edge Màu Hồng ( Pink Gold )">
+                          <h3 title="Samsung Galaxy S7 Edge Màu Hồng ( Pink Gold )">Samsung Galaxy S7 Edge Màu Hồng ( Pink Gold )</h3>
+                          <p class="price">14,990,000 đ</p>
+                          <div class="km">
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc NHANH Không Dây Samsung S7 Edge trị giá&nbsp;1.000.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;</span><span style="line-height: 20.8px;">Tặng Gậy Tự Sướng trị giá 150.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                          </div>
+                        </a>
+                        <a href="samsung-galaxy-s7-edge-mau-hong-pink-gold.html" class="more">Xem ngay</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='item1 col-xs-6 nopadding product-grid' >
+                    <div class='boxItem' >
+                      <span class="icon-product" style="background: #c20202; border: 1px solid #ffffff; color:#ffffff;">NEW</span>
+                      <a href="samsung-galaxy-note-5-hang-trung-bay.html" title='Samsung Galaxy Note 5 ( Hàng trưng bày )' ><img  src="http://xtmobile.vn/vnt_upload/product/Hinh_DT/SamSung/SAMSUNG-GALAXY-NOTE-5/thumbs/(300x300)_crop_note_5_gold.png"   alt='Samsung Galaxy Note 5 ( Hàng trưng bày )' title='Samsung Galaxy Note 5 ( Hàng trưng bày )'  /></a>
+                      <h3><a href="samsung-galaxy-note-5-hang-trung-bay.html"  title='Samsung Galaxy Note 5 ( Hàng trưng bày )'>Samsung Galaxy Note 5 ( Hàng trưng bày )</a> </h3>
+                      <p class="price">9,690,000 đ</p>
+                      <div class="product-hover">
+                        <a href="samsung-galaxy-note-5-hang-trung-bay.html" title="Samsung Galaxy Note 5 ( Hàng trưng bày )">
+                          <h3 title="Samsung Galaxy Note 5 ( Hàng trưng bày )">Samsung Galaxy Note 5 ( Hàng trưng bày )</h3>
+                          <p class="price">9,690,000 đ</p>
+                          <div class="km">
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng dán MH thường 12 tháng trị giá 300.000VND.</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng&nbsp;USB OTG trị giá 250.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;</span><span style="line-height: 20.8px;">Tặng Gậy Tự Sướng trị giá 150.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                            <div>&nbsp;</div>
+                          </div>
+                        </a>
+                        <a href="samsung-galaxy-note-5-hang-trung-bay.html" class="more">Xem ngay</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='item1 col-xs-6 nopadding product-grid' >
+                    <div class='boxItem' >
+                      <span class="icon-product" style="background: #eb1010; border: 1px solid #fcf7fc; color:#fcf7fc;">Giảm Giá</span>
+                      <a href="samsung-galaxy-s7-edge-hang-cty.html" title='Samsung Galaxy S7 Edge Hàng Cty' ><img  src="http://xtmobile.vn/vnt_upload/product/03_2016/thumbs/(300x300)_crop_s7-edge-preview.jpg"   alt='Samsung Galaxy S7 Edge Hàng Cty' title='Samsung Galaxy S7 Edge Hàng Cty'  /></a>
+                      <h3><a href="samsung-galaxy-s7-edge-hang-cty.html"  title='Samsung Galaxy S7 Edge Hàng Cty'>Samsung Galaxy S7 Edge Hàng Cty</a> </h3>
+                      <p class="price">16,690,000 đ</p>
+                      <div class="product-hover">
+                        <a href="samsung-galaxy-s7-edge-hang-cty.html" title="Samsung Galaxy S7 Edge Hàng Cty">
+                          <h3 title="Samsung Galaxy S7 Edge Hàng Cty">Samsung Galaxy S7 Edge Hàng Cty</h3>
+                          <p class="price">16,690,000 đ</p>
+                          <div class="km">
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                          </div>
+                        </a>
+                        <a href="samsung-galaxy-s7-edge-hang-cty.html" class="more">Xem ngay</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='item1 col-xs-6 nopadding product-grid' >
+                    <div class='boxItem' >
+                      <span class="icon-product" style="background: #eb1010; border: 1px solid #fcf7fc; color:#fcf7fc;">Giảm Giá</span>
+                      <a href="lg-v10-2-sim-h961n.html" title='LG V10 2 sim ( H961N )' ><img  src="http://xtmobile.vn/vnt_upload/product/03_2016/thumbs/(300x300)_crop_v10-navy.jpg"   alt='LG V10 2 sim ( H961N )' title='LG V10 2 sim ( H961N )'  /></a>
+                      <h3><a href="lg-v10-2-sim-h961n.html"  title='LG V10 2 sim ( H961N )'>LG V10 2 sim ( H961N )</a> </h3>
+                      <p class="price">12,990,000 đ</p>
+                      <div class="product-hover">
+                        <a href="lg-v10-2-sim-h961n.html" title="LG V10 2 sim ( H961N )">
+                          <h3 title="LG V10 2 sim ( H961N )">LG V10 2 sim ( H961N )</h3>
+                          <p class="price">12,990,000 đ</p>
+                          <div class="km">
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Giảm 20% phụ kiện ( ốp lưng, bao da...).</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;</span><span style="line-height: 20.8px;">Miễn phí 1 năm cài phần mềm.</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                          </div>
+                        </a>
+                        <a href="lg-v10-2-sim-h961n.html" class="more">Xem ngay</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='item1 col-xs-6 nopadding product-grid' >
+                    <div class='boxItem' >
+                      <a href="samsung-galaxy-s7-edge-64g.html" title='Samsung Galaxy S7 Edge 64G' ><img  src="http://xtmobile.vn/vnt_upload/product/03_2016/thumbs/(300x300)_crop_s7-edge-preview.jpg"   alt='Samsung Galaxy S7 Edge 64G' title='Samsung Galaxy S7 Edge 64G'  /></a>
+                      <h3><a href="samsung-galaxy-s7-edge-64g.html"  title='Samsung Galaxy S7 Edge 64G'>Samsung Galaxy S7 Edge 64G</a> </h3>
+                      <p class="price">14,990,000 đ</p>
+                      <div class="product-hover">
+                        <a href="samsung-galaxy-s7-edge-64g.html" title="Samsung Galaxy S7 Edge 64G">
+                          <h3 title="Samsung Galaxy S7 Edge 64G">Samsung Galaxy S7 Edge 64G</h3>
+                          <p class="price">14,990,000 đ</p>
+                          <div class="km">
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc NHANH không dây Samsung S7 Edge trị giá 1.000.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;</span><span style="line-height: 20.8px;">Tặng Gậy Tự Sướng trị giá 150.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                          </div>
+                        </a>
+                        <a href="samsung-galaxy-s7-edge-64g.html" class="more">Xem ngay</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='item1 col-xs-6 nopadding product-grid' >
+                    <div class='boxItem' >
+                      <span class="icon-product" style="background: #c20202; border: 1px solid #ffffff; color:#ffffff;">NEW</span>
+                      <a href="samsung-galaxy-note-5-64g.html" title='Samsung Galaxy Note 5 64G' ><img  src="http://xtmobile.vn/vnt_upload/product/03_2016/thumbs/(300x300)_crop_note_5_gold.jpg"   alt='Samsung Galaxy Note 5 64G' title='Samsung Galaxy Note 5 64G'  /></a>
+                      <h3><a href="samsung-galaxy-note-5-64g.html"  title='Samsung Galaxy Note 5 64G'>Samsung Galaxy Note 5 64G</a> </h3>
+                      <p class="price">13,490,000 đ</p>
+                      <div class="product-hover">
+                        <a href="samsung-galaxy-note-5-64g.html" title="Samsung Galaxy Note 5 64G">
+                          <h3 title="Samsung Galaxy Note 5 64G">Samsung Galaxy Note 5 64G</h3>
+                          <p class="price">13,490,000 đ</p>
+                          <div class="km">
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc Không Dây Samsung 599.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng&nbsp;USB OTG trị giá 250.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;</span><span style="line-height: 20.8px;">Tặng Gậy Tự Sướng trị giá 150.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                          </div>
+                        </a>
+                        <a href="samsung-galaxy-note-5-64g.html" class="more">Xem ngay</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='item1 col-xs-6 nopadding product-grid' >
+                    <div class='boxItem' >
+                      <span class="icon-product" style="background: #c20202; border: 1px solid #ffffff; color:#ffffff;">NEW</span>
+                      <a href="samsung-galaxy-a7-2016.html" title='Samsung Galaxy A7 (2016)' ><img  src="http://xtmobile.vn/vnt_upload/product/03_2016/thumbs/(300x300)_crop_dien-thoai-samsung-galaxy-a7-2016.1.jpg"   alt='Samsung Galaxy A7 (2016)' title='Samsung Galaxy A7 (2016)'  /></a>
+                      <h3><a href="samsung-galaxy-a7-2016.html"  title='Samsung Galaxy A7 (2016)'>Samsung Galaxy A7 (2016)</a> </h3>
+                      <p class="price">7,590,000 đ</p>
+                      <div class="product-hover">
+                        <a href="samsung-galaxy-a7-2016.html" title="Samsung Galaxy A7 (2016)">
+                          <h3 title="Samsung Galaxy A7 (2016)">Samsung Galaxy A7 (2016)</h3>
+                          <p class="price">7,590,000 đ</p>
+                          <div class="km">
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng&nbsp;USB OTG trị giá 250.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;</span><span style="line-height: 20.8px;">Tặng Gậy Tự Sướng trị giá 150.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc cáp Samsung trị giá 250.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                          </div>
+                        </a>
+                        <a href="samsung-galaxy-a7-2016.html" class="more">Xem ngay</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='item1 col-xs-6 nopadding product-grid' >
+                    <div class='boxItem' >
+                      <span class="icon-product" style="background: #eb1010; border: 1px solid #fcf7fc; color:#fcf7fc;">Giảm Giá</span>
+                      <a href="samsung-galaxy-s7-edge.html" title='Samsung Galaxy S7 Edge' ><img  src="http://xtmobile.vn/vnt_upload/product/03_2016/thumbs/(300x300)_crop_s7-edge-preview.jpg"   alt='Samsung Galaxy S7 Edge' title='Samsung Galaxy S7 Edge'  /></a>
+                      <h3><a href="samsung-galaxy-s7-edge.html"  title='Samsung Galaxy S7 Edge'>Samsung Galaxy S7 Edge</a> </h3>
+                      <p class="price">13,590,000 đ</p>
+                      <div class="product-hover">
+                        <a href="samsung-galaxy-s7-edge.html" title="Samsung Galaxy S7 Edge">
+                          <h3 title="Samsung Galaxy S7 Edge">Samsung Galaxy S7 Edge</h3>
+                          <p class="price">13,590,000 đ</p>
+                          <div class="km">
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc Không Dây Samsung S6 599.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;</span><span style="line-height: 20.8px;">Tặng Gậy Tự Sướng trị giá 150.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                          </div>
+                        </a>
+                        <a href="samsung-galaxy-s7-edge.html" class="more">Xem ngay</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='item1 col-xs-6 nopadding product-grid' >
+                    <div class='boxItem' >
+                      <span class="icon-product" style="background: #eb1010; border: 1px solid #fcf7fc; color:#fcf7fc;">Giảm Giá</span>
+                      <a href="samsung-galaxy-s7.html" title='Samsung Galaxy S7' ><img  src="http://xtmobile.vn/vnt_upload/product/03_2016/thumbs/(300x300)_crop_preview.jpg"   alt='Samsung Galaxy S7' title='Samsung Galaxy S7'  /></a>
+                      <h3><a href="samsung-galaxy-s7.html"  title='Samsung Galaxy S7'>Samsung Galaxy S7</a> </h3>
+                      <p class="price">11,790,000 đ</p>
+                      <div class="product-hover">
+                        <a href="samsung-galaxy-s7.html" title="Samsung Galaxy S7">
+                          <h3 title="Samsung Galaxy S7">Samsung Galaxy S7</h3>
+                          <p class="price">11,790,000 đ</p>
+                          <div class="km">
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;</span><span style="line-height: 20.8px;">Tặng Gậy Tự Sướng trị giá 150.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                          </div>
+                        </a>
+                        <a href="samsung-galaxy-s7.html" class="more">Xem ngay</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='item1 col-xs-6 nopadding product-grid' >
+                    <div class='boxItem' >
+                      <span class="icon-product" style="background: #c20202; border: 1px solid #ffffff; color:#ffffff;">NEW</span>
+                      <a href="samsung-galaxy-note-5-vang-hong-rose-gold.html" title='Samsung Galaxy Note 5 Vàng Hồng ( Rose Gold )' ><img  src="http://xtmobile.vn/vnt_upload/product/03_2016/thumbs/(300x300)_crop_preview_1.jpg"   alt='Samsung Galaxy Note 5 Vàng Hồng ( Rose Gold )' title='Samsung Galaxy Note 5 Vàng Hồng ( Rose Gold )'  /></a>
+                      <h3><a href="samsung-galaxy-note-5-vang-hong-rose-gold.html"  title='Samsung Galaxy Note 5 Vàng Hồng ( Rose Gold )'>Samsung Galaxy Note 5 Vàng Hồng ( Rose Gold )</a> </h3>
+                      <p class="price">13,990,000 đ</p>
+                      <div class="product-hover">
+                        <a href="samsung-galaxy-note-5-vang-hong-rose-gold.html" title="Samsung Galaxy Note 5 Vàng Hồng ( Rose Gold )">
+                          <h3 title="Samsung Galaxy Note 5 Vàng Hồng ( Rose Gold )">Samsung Galaxy Note 5 Vàng Hồng ( Rose Gold )</h3>
+                          <p class="price">13,990,000 đ</p>
+                          <div class="km">
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc Không Dây Samsung 599.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng&nbsp;USB OTG trị giá 250.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;</span><span style="line-height: 20.8px;">Tặng Gậy Tự Sướng trị giá 150.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                          </div>
+                        </a>
+                        <a href="samsung-galaxy-note-5-vang-hong-rose-gold.html" class="more">Xem ngay</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='item1 col-xs-6 nopadding product-grid' >
+                    <div class='boxItem' >
+                      <span class="icon-product" style="background: #c20202; border: 1px solid #ffffff; color:#ffffff;">NEW</span>
+                      <a href="dien-thoai-xiaomi-mi5.html" title='Điện thoại Xiaomi Mi5' ><img  src="http://xtmobile.vn/vnt_upload/product/Hinh_DT/Xiaomi/MI5/thumbs/(300x300)_crop_xiaomi-mi-5-1.jpg"   alt='Điện thoại Xiaomi Mi5' title='Điện thoại Xiaomi Mi5'  /></a>
+                      <h3><a href="dien-thoai-xiaomi-mi5.html"  title='Điện thoại Xiaomi Mi5'>Điện thoại Xiaomi Mi5</a> </h3>
+                      <p class="price">7,090,000 đ</p>
+                      <div class="product-hover">
+                        <a href="dien-thoai-xiaomi-mi5.html" title="Điện thoại Xiaomi Mi5">
+                          <h3 title="Điện thoại Xiaomi Mi5">Điện thoại Xiaomi Mi5</h3>
+                          <p class="price">7,090,000 đ</p>
+                          <div class="km">
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Giảm 20% phụ kiện ( ốp lưng, bao da...).</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;</span><span style="line-height: 20.8px;">Miễn phí 1 năm cài phần mềm.</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                          </div>
+                        </a>
+                        <a href="dien-thoai-xiaomi-mi5.html" class="more">Xem ngay</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='item1 col-xs-6 nopadding product-grid' >
+                    <div class='boxItem' >
+                      <a href="xiaomi-redmi-note-3.html" title='Xiaomi Redmi Note 3' ><img  src="http://xtmobile.vn/vnt_upload/product/03_2016/thumbs/(300x300)_crop_PREVIEW1.jpg"   alt='Xiaomi Redmi Note 3' title='Xiaomi Redmi Note 3'  /></a>
+                      <h3><a href="xiaomi-redmi-note-3.html"  title='Xiaomi Redmi Note 3'>Xiaomi Redmi Note 3</a> </h3>
+                      <p class="price">3,350,000 đ</p>
+                      <div class="product-hover">
+                        <a href="xiaomi-redmi-note-3.html" title="Xiaomi Redmi Note 3">
+                          <h3 title="Xiaomi Redmi Note 3">Xiaomi Redmi Note 3</h3>
+                          <p class="price">3,350,000 đ</p>
+                          <div class="km">
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng dán MH thường 12 tháng trị giá 500.000VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Giảm 20% phụ kiện ( ốp lưng, bao da...).</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;</span><span style="line-height: 20.8px;">Miễn phí 1 năm cài phần mềm.</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                          </div>
+                        </a>
+                        <a href="xiaomi-redmi-note-3.html" class="more">Xem ngay</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='item1 col-xs-6 nopadding product-grid' >
+                    <div class='boxItem' >
+                      <span class="icon-product" style="background: #c20202; border: 1px solid #ffffff; color:#ffffff;">NEW</span>
+                      <a href="lg-v10.html" title='LG V10' ><img  src="http://xtmobile.vn/vnt_upload/product/10_2015/thumbs/(300x300)_crop_v10-navy.png"   alt='LG V10' title='LG V10'  /></a>
+                      <h3><a href="lg-v10.html"  title='LG V10'>LG V10</a> </h3>
+                      <p class="price">9,990,000 đ</p>
+                      <div class="product-hover">
+                        <a href="lg-v10.html" title="LG V10">
+                          <h3 title="LG V10">LG V10</h3>
+                          <p class="price">9,990,000 đ</p>
+                          <div class="km">
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng USB OTG trị giá 250.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Ốp&nbsp;lưng trị giá 150.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Gậy Tự Sướng trị giá 150.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                          </div>
+                        </a>
+                        <a href="lg-v10.html" class="more">Xem ngay</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='item1 col-xs-6 nopadding product-grid' >
+                    <div class='boxItem' >
+                      <span class="icon-product" style="background: #c20202; border: 1px solid #ffffff; color:#ffffff;">NEW</span>
+                      <a href="samsung-galaxy-s6-edge-plus.html" title='Samsung Galaxy S6 Edge Plus' ><img  src="http://xtmobile.vn/vnt_upload/product/03_2016/thumbs/(300x300)_crop_s6_edge_plus_gold.jpg"   alt='Samsung Galaxy S6 Edge Plus' title='Samsung Galaxy S6 Edge Plus'  /></a>
+                      <h3><a href="samsung-galaxy-s6-edge-plus.html"  title='Samsung Galaxy S6 Edge Plus'>Samsung Galaxy S6 Edge Plus</a> </h3>
+                      <p class="price">11,990,000 đ</p>
+                      <div class="product-hover">
+                        <a href="samsung-galaxy-s6-edge-plus.html" title="Samsung Galaxy S6 Edge Plus">
+                          <h3 title="Samsung Galaxy S6 Edge Plus">Samsung Galaxy S6 Edge Plus</h3>
+                          <p class="price">11,990,000 đ</p>
+                          <div class="km">
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc NHANH Không Dây Samsung S7 EDGE&nbsp;1.000.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng&nbsp;USB OTG trị giá 250.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;</span><span style="line-height: 20.8px;">Tặng Gậy Tự Sướng trị giá 150.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                          </div>
+                        </a>
+                        <a href="samsung-galaxy-s6-edge-plus.html" class="more">Xem ngay</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='item1 col-xs-6 nopadding product-grid' >
+                    <div class='boxItem' >
+                      <span class="icon-product" style="background: #c20202; border: 1px solid #ffffff; color:#ffffff;">NEW</span>
+                      <a href="samsung-galaxy-note-5.html" title='Samsung Galaxy Note 5' ><img  src="http://xtmobile.vn/vnt_upload/product/03_2016/thumbs/(300x300)_crop_note_5_gold.jpg"   alt='Samsung Galaxy Note 5' title='Samsung Galaxy Note 5'  /></a>
+                      <h3><a href="samsung-galaxy-note-5.html"  title='Samsung Galaxy Note 5'>Samsung Galaxy Note 5</a> </h3>
+                      <p class="price">10,690,000 đ</p>
+                      <div class="product-hover">
+                        <a href="samsung-galaxy-note-5.html" title="Samsung Galaxy Note 5">
+                          <h3 title="Samsung Galaxy Note 5">Samsung Galaxy Note 5</h3>
+                          <p class="price">10,690,000 đ</p>
+                          <div class="km">
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc Không Dây Samsung S6 599.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng&nbsp;USB OTG trị giá 250.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;</span><span style="line-height: 20.8px;">Tặng Gậy Tự Sướng trị giá 150.000 VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                          </div>
+                        </a>
+                        <a href="samsung-galaxy-note-5.html" class="more">Xem ngay</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='item1 col-xs-6 nopadding product-grid' >
+                    <div class='boxItem' >
+                      <span class="icon-product" style="background: #2d1ad9; border: 1px solid #f7f7f7; color:#f7f7f7;">Cty</span>
+                      <a href="samsung-galaxy-a5.html" title='Samsung Galaxy A5' ><img  src="http://xtmobile.vn/vnt_upload/product/03_2016/thumbs/(300x300)_crop_a52015.png"   alt='Samsung Galaxy A5' title='Samsung Galaxy A5'  /></a>
+                      <h3><a href="samsung-galaxy-a5.html"  title='Samsung Galaxy A5'>Samsung Galaxy A5</a> </h3>
+                      <p class="price">4,390,000 đ</p>
+                      <div class="product-hover">
+                        <a href="samsung-galaxy-a5.html" title="Samsung Galaxy A5">
+                          <h3 title="Samsung Galaxy A5">Samsung Galaxy A5</h3>
+                          <p class="price">4,390,000 đ</p>
+                          <div class="km">
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng dán MH thường 12 tháng trị giá 500.000VND</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Giảm 20% phụ kiện ( ốp lưng, bao da...).</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;</span><span style="line-height: 20.8px;">Miễn phí 1 năm cài phần mềm.</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                          </div>
+                        </a>
+                        <a href="samsung-galaxy-a5.html" class="more">Xem ngay</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='item1 col-xs-6 nopadding product-grid' >
+                    <div class='boxItem' >
+                      <span class="icon-product" style="background: #ffffff; border: 1px solid #960c0c; color:#960c0c;">MỚI CÓ HÀNG</span>
+                      <a href="ban-dien-thoai-xiaomi-mi-4-gia-re-nhat-tphcm.html" title='Xiaomi Mi 4' ><img  src="http://xtmobile.vn/vnt_upload/product/Hinh_DT/Xiaomi/XIAOMI_MI_4/thumbs/(300x300)_crop_Untitled-1.jpg"   alt='Xiaomi Mi 4' title='Xiaomi Mi 4'  /></a>
+                      <h3><a href="ban-dien-thoai-xiaomi-mi-4-gia-re-nhat-tphcm.html"  title='Xiaomi Mi 4'>Xiaomi Mi 4</a> </h3>
+                      <p class="price">2,790,000 đ</p>
+                      <div class="product-hover">
+                        <a href="ban-dien-thoai-xiaomi-mi-4-gia-re-nhat-tphcm.html" title="Xiaomi Mi 4">
+                          <h3 title="Xiaomi Mi 4">Xiaomi Mi 4</h3>
+                          <p class="price">2,790,000 đ</p>
+                          <div class="km">
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Giảm 20% phụ kiện ( ốp lưng, bao da...).</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;</span><span style="line-height: 20.8px;">Miễn phí 1 năm cài phần mềm.</span></p>
+                            <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                          </div>
+                        </a>
+                        <a href="ban-dien-thoai-xiaomi-mi-4-gia-re-nhat-tphcm.html" class="more">Xem ngay</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class='advertise_pro last'>
+                  <a href ='xtmobile-tung-bung-khai-truong-chi-nhanh-thu-04.html' target='_blank'>
+                  <img  src='http://xtmobile.vn/vnt_upload/product/advertise/khai-truong.jpg'  />
+                  </a>
+                </div>
+              </div>
+              <div class="box_pro_main">
+                <div class="box_title_pro">
+                  <h3><b>Máy đổi trả</b></h3>
+                </div>
+                <div class="box-content">
+                  <div id="List_Product" class="grid-bound grid-bound-home">
+                    <div class='item1 nopadding product-grid' >
+                      <div class='boxItem' >
+                        <span class="icon-product" style="background: #0d0c0a; border: 1px solid #faf7f7; color:#faf7f7;">99%</span>
+                        <a href="iphone-5c-lock-may-cu-98-99.html" title='iPhone 5c Lock Máy Cũ (98-99%)' >
+                        <img  src="http://xtmobile.vn/vnt_upload/product/Hinh_DT/Iphone/iphone-5c/thumbs/(300x300)_crop_Apple-iPhone-5c-lock-may-cu.jpg"   alt='iPhone 5c Lock Máy Cũ (98-99%)' title='iPhone 5c Lock Máy Cũ (98-99%)'  />
+                        </a>
+                        <h3><a href="iphone-5c-lock-may-cu-98-99.html"  title='iPhone 5c Lock Máy Cũ (98-99%)'>iPhone 5c Lock Máy Cũ (98-99%)</a> </h3>
+                        <p class="price">1,990,000 đ</p>
+                        <div class="product-hover">
+                          <a href="iphone-5c-lock-may-cu-98-99.html" title="iPhone 5c Lock Máy Cũ (98-99%)">
+                            <h3 title="iPhone 5c Lock Máy Cũ (98-99%)">iPhone 5c Lock Máy Cũ (98-99%)</h3>
+                            <p class="price">1,990,000 đ</p>
+                            <div class="km">
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng dán MH thường 6 tháng trị giá 300.000VND.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc cáp trị giá 250.000 VND</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sim ghép trị giá 250.000 VND</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Fix miễn phí và cài đặt game.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                              <p style="line-height: 20.8px; margin: 0px; padding: 5px 0px; font-family: Arial, Helvetica, sans-serif; font-size: 12px;">&nbsp;</p>
+                            </div>
+                          </a>
+                          <a href="iphone-5c-lock-may-cu-98-99.html" class="more">Xem ngay</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class='item1 nopadding product-grid' >
+                      <div class='boxItem' >
+                        <a href="iphone-5s-world-16g-99-likenew.html" title='Iphone 5s World 16G (99%-likenew)' ><img  src="http://xtmobile.vn/vnt_upload/product/Hinh_DT/Iphone/iphone_5s/thumbs/(300x300)_crop_iphone-5s-grey.jpg"   alt='Iphone 5s World 16G (99%-likenew)' title='Iphone 5s World 16G (99%-likenew)'  /></a>
+                        <h3><a href="iphone-5s-world-16g-99-likenew.html"  title='Iphone 5s World 16G (99%-likenew)'>Iphone 5s World 16G (99%-likenew)</a> </h3>
+                        <p class="price">3,890,000 đ</p>
+                        <div class="product-hover">
+                          <a href="iphone-5s-world-16g-99-likenew.html" title="Iphone 5s World 16G (99%-likenew)">
+                            <h3 title="Iphone 5s World 16G (99%-likenew)">Iphone 5s World 16G (99%-likenew)</h3>
+                            <p class="price">3,890,000 đ</p>
+                            <div class="km">
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng dán MH thường 6 tháng trị giá 300.000VND.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc cáp trị giá 250.000 VND.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Giảm 20% phụ kiện ( ốp lưng, bao da...).</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Miễn phí 1 năm cài phần mềm.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                            </div>
+                          </a>
+                          <a href="iphone-5s-world-16g-99-likenew.html" class="more">Xem ngay</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class='item1 nopadding product-grid' >
+                      <div class='boxItem' >
+                        <span class="icon-product" style="background: #db3700; border: 1px solid #ffffff; color:#ffffff;">GIẢM 600 NGÀN</span>
+                        <a href="iphone-6-plus-16gb-world-99-likenew.html" title='iPhone 6 Plus 16GB World (99%-likenew)' ><img  src="http://xtmobile.vn/vnt_upload/product/Hinh_DT/Iphone/iphone-6/thumbs/(300x300)_crop_apple-iphone-6-gold-7.jpg"   alt='iPhone 6 Plus 16GB World (99%-likenew)' title='iPhone 6 Plus 16GB World (99%-likenew)'  /></a>
+                        <h3><a href="iphone-6-plus-16gb-world-99-likenew.html"  title='iPhone 6 Plus 16GB World (99%-likenew)'>iPhone 6 Plus 16GB World (99%-likenew)</a> </h3>
+                        <p class="price">10,290,000 đ</p>
+                        <div class="product-hover">
+                          <a href="iphone-6-plus-16gb-world-99-likenew.html" title="iPhone 6 Plus 16GB World (99%-likenew)">
+                            <h3 title="iPhone 6 Plus 16GB World (99%-likenew)">iPhone 6 Plus 16GB World (99%-likenew)</h3>
+                            <p class="price">10,290,000 đ</p>
+                            <div class="km">
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng dán MH thường 6 tháng trị giá 300.000VND.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc cáp trị giá 250.000 VND.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Giảm 20% phụ kiện ( ốp lưng, bao da...).</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Miễn phí 1 năm cài phần mềm.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                            </div>
+                          </a>
+                          <a href="iphone-6-plus-16gb-world-99-likenew.html" class="more">Xem ngay</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class='item1 nopadding product-grid' >
+                      <div class='boxItem' >
+                        <a href="iphone-6-plus-64gb-world-99-likenew.html" title='iPhone 6 Plus 64GB World (99%-likenew)' ><img  src="http://xtmobile.vn/vnt_upload/product/Hinh_DT/Iphone/iphone_6_plus/thumbs/(300x300)_crop_Untitled-1.jpg"   alt='iPhone 6 Plus 64GB World (99%-likenew)' title='iPhone 6 Plus 64GB World (99%-likenew)'  /></a>
+                        <h3><a href="iphone-6-plus-64gb-world-99-likenew.html"  title='iPhone 6 Plus 64GB World (99%-likenew)'>iPhone 6 Plus 64GB World (99%-likenew)</a> </h3>
+                        <p class="price">11,990,000 đ</p>
+                        <div class="product-hover">
+                          <a href="iphone-6-plus-64gb-world-99-likenew.html" title="iPhone 6 Plus 64GB World (99%-likenew)">
+                            <h3 title="iPhone 6 Plus 64GB World (99%-likenew)">iPhone 6 Plus 64GB World (99%-likenew)</h3>
+                            <p class="price">11,990,000 đ</p>
+                            <div class="km">
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng dán MH thường 6 tháng trị giá 300.000VND.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc cáp trị giá 250.000 VND.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Giảm 20% phụ kiện ( ốp lưng, bao da...).</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Miễn phí 1 năm cài phần mềm.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                            </div>
+                          </a>
+                          <a href="iphone-6-plus-64gb-world-99-likenew.html" class="more">Xem ngay</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class='item1 nopadding product-grid' >
+                      <div class='boxItem' >
+                        <span class="icon-product" style="background: #0d0c0a; border: 1px solid #faf7f7; color:#faf7f7;">99%</span>
+                        <a href="samsung-galaxy-note-4-99-likenew.html" title='Samsung Galaxy Note 4 (99% - likenew)' ><img  src="http://xtmobile.vn/vnt_upload/product/03_2016/thumbs/(300x300)_crop_preview-Y910.jpg"   alt='Samsung Galaxy Note 4 (99% - likenew)' title='Samsung Galaxy Note 4 (99% - likenew)'  /></a>
+                        <h3><a href="samsung-galaxy-note-4-99-likenew.html"  title='Samsung Galaxy Note 4 (99% - likenew)'>Samsung Galaxy Note 4 (99% - likenew)</a> </h3>
+                        <p class="price">5,690,000 đ</p>
+                        <div class="product-hover">
+                          <a href="samsung-galaxy-note-4-99-likenew.html" title="Samsung Galaxy Note 4 (99% - likenew)">
+                            <h3 title="Samsung Galaxy Note 4 (99% - likenew)">Samsung Galaxy Note 4 (99% - likenew)</h3>
+                            <p class="price">5,690,000 đ</p>
+                            <div class="km">
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng dán MH thường 6 tháng trị giá 300.000VND.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng&nbsp;USB OTG trị giá 250.000 VND</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;</span><span style="line-height: 20.8px;">Tặng Gậy Tự Sướng trị giá 150.000 VND</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc cáp trị giá 250.000 VND.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                              <div>&nbsp;</div>
+                            </div>
+                          </a>
+                          <a href="samsung-galaxy-note-4-99-likenew.html" class="more">Xem ngay</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class='item1 nopadding product-grid' >
+                      <div class='boxItem' >
+                        <span class="icon-product" style="background: #0d0c0a; border: 1px solid #faf7f7; color:#faf7f7;">99%</span>
+                        <a href="samsung-galaxy-note-5-ban-my-99-likenew.html" title='Samsung Galaxy Note 5 Bản Mỹ (99% - likenew)' ><img  src="http://xtmobile.vn/vnt_upload/product/Hinh_DT/SamSung/SAMSUNG-GALAXY-NOTE-5/thumbs/(300x300)_crop_note_5_gold.png"   alt='Samsung Galaxy Note 5 Bản Mỹ (99% - likenew)' title='Samsung Galaxy Note 5 Bản Mỹ (99% - likenew)'  /></a>
+                        <h3><a href="samsung-galaxy-note-5-ban-my-99-likenew.html"  title='Samsung Galaxy Note 5 Bản Mỹ (99% - likenew)'>Samsung Galaxy Note 5 Bản Mỹ (99% - likenew)</a> </h3>
+                        <p class="price">7,990,000 đ</p>
+                        <div class="product-hover">
+                          <a href="samsung-galaxy-note-5-ban-my-99-likenew.html" title="Samsung Galaxy Note 5 Bản Mỹ (99% - likenew)">
+                            <h3 title="Samsung Galaxy Note 5 Bản Mỹ (99% - likenew)">Samsung Galaxy Note 5 Bản Mỹ (99% - likenew)</h3>
+                            <p class="price">7,990,000 đ</p>
+                            <div class="km">
+                              <p style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, &#39;Trebuchet MS&#39;; font-size: 13px; line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="cursor: default; line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng dán MH thường 6 tháng trị giá 300.000VND.</span></p>
+                              <p style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, &#39;Trebuchet MS&#39;; font-size: 13px; line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="cursor: default; line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc Không Dây Samsung S6 599.000 VND</span></p>
+                              <p style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, &#39;Trebuchet MS&#39;; font-size: 13px; line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="cursor: default; line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng&nbsp;USB OTG trị giá 250.000 VND</span></p>
+                              <p style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, &#39;Trebuchet MS&#39;; font-size: 13px; line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="cursor: default; line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;</span><span style="line-height: 20.8px;">Tặng Gậy Tự Sướng trị giá 150.000 VND</span></p>
+                              <p style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, &#39;Trebuchet MS&#39;; font-size: 13px; line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="cursor: default; line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc cáp trị giá 250.000 VND.</span></p>
+                              <p style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, &#39;Trebuchet MS&#39;; font-size: 13px; line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="cursor: default; line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                              <div>&nbsp;</div>
+                              <div>&nbsp;</div>
+                            </div>
+                          </a>
+                          <a href="samsung-galaxy-note-5-ban-my-99-likenew.html" class="more">Xem ngay</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class='item1 nopadding product-grid' >
+                      <div class='boxItem' >
+                        <span class="icon-product" style="background: #1c0606; border: 1px solid #f2e6e6; color:#f2e6e6;">97%</span>
+                        <a href="samsung-galaxy-note-5-ban-my-may-cu-97-98.html" title='Samsung Galaxy Note 5 Bản Mỹ Máy cũ (97% - 98%)' ><img  src="http://xtmobile.vn/vnt_upload/product/03_2016/thumbs/(300x300)_crop_note_5_gold.jpg"   alt='Samsung Galaxy Note 5 Bản Mỹ Máy cũ (97% - 98%)' title='Samsung Galaxy Note 5 Bản Mỹ Máy cũ (97% - 98%)'  /></a>
+                        <h3><a href="samsung-galaxy-note-5-ban-my-may-cu-97-98.html"  title='Samsung Galaxy Note 5 Bản Mỹ Máy cũ (97% - 98%)'>Samsung Galaxy Note 5 Bản Mỹ Máy cũ (97% - 98%)</a> </h3>
+                        <p class="price">7,590,000 đ</p>
+                        <div class="product-hover">
+                          <a href="samsung-galaxy-note-5-ban-my-may-cu-97-98.html" title="Samsung Galaxy Note 5 Bản Mỹ Máy cũ (97% - 98%)">
+                            <h3 title="Samsung Galaxy Note 5 Bản Mỹ Máy cũ (97% - 98%)">Samsung Galaxy Note 5 Bản Mỹ Máy cũ (97% - 98%)</h3>
+                            <p class="price">7,590,000 đ</p>
+                            <div class="km">
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng dán MH thường 6 tháng trị giá 300.000VND.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc Không Dây Samsung S6 599.000 VND</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng&nbsp;USB OTG trị giá 250.000 VND</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;</span><span style="line-height: 20.8px;">Tặng Gậy Tự Sướng trị giá 150.000 VND</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc cáp trị giá 250.000 VND.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                              <div>&nbsp;</div>
+                            </div>
+                          </a>
+                          <a href="samsung-galaxy-note-5-ban-my-may-cu-97-98.html" class="more">Xem ngay</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class='item1 nopadding product-grid' >
+                      <div class='boxItem' >
+                        <span class="icon-product" style="background: #0d0c0a; border: 1px solid #faf7f7; color:#faf7f7;">99%</span>
+                        <a href="samsung-galaxy-note-5-99-likenew.html" title='Samsung Galaxy Note 5 (99% - likenew)' ><img  src="http://xtmobile.vn/vnt_upload/product/Hinh_DT/SamSung/SAMSUNG-GALAXY-NOTE-5/thumbs/(300x300)_crop_note_5_gold.png"   alt='Samsung Galaxy Note 5 (99% - likenew)' title='Samsung Galaxy Note 5 (99% - likenew)'  /></a>
+                        <h3><a href="samsung-galaxy-note-5-99-likenew.html"  title='Samsung Galaxy Note 5 (99% - likenew)'>Samsung Galaxy Note 5 (99% - likenew)</a> </h3>
+                        <p class="price">8,990,000 đ</p>
+                        <div class="product-hover">
+                          <a href="samsung-galaxy-note-5-99-likenew.html" title="Samsung Galaxy Note 5 (99% - likenew)">
+                            <h3 title="Samsung Galaxy Note 5 (99% - likenew)">Samsung Galaxy Note 5 (99% - likenew)</h3>
+                            <p class="price">8,990,000 đ</p>
+                            <div class="km">
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng dán MH thường 6 tháng trị giá 300.000VND.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc Không Dây Samsung S6 599.000 VND</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng&nbsp;USB OTG trị giá 250.000 VND</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;</span><span style="line-height: 20.8px;">Tặng Gậy Tự Sướng trị giá 150.000 VND</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc cáp trị giá 250.000 VND.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                              <div>&nbsp;</div>
+                            </div>
+                          </a>
+                          <a href="samsung-galaxy-note-5-99-likenew.html" class="more">Xem ngay</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class='item1 nopadding product-grid' >
+                      <div class='boxItem' >
+                        <span class="icon-product" style="background: #db3700; border: 1px solid #ffffff; color:#ffffff;">GIẢM 600 NGÀN</span>
+                        <a href="samsung-galaxy-s6-active.html" title='Samsung Galaxy S6 Active' ><img  src="http://xtmobile.vn/vnt_upload/product/03_2016/thumbs/(300x300)_crop_S6_AT.jpg"   alt='Samsung Galaxy S6 Active' title='Samsung Galaxy S6 Active'  /></a>
+                        <h3><a href="samsung-galaxy-s6-active.html"  title='Samsung Galaxy S6 Active'>Samsung Galaxy S6 Active</a> </h3>
+                        <p class="price">6,290,000 đ</p>
+                        <div class="product-hover">
+                          <a href="samsung-galaxy-s6-active.html" title="Samsung Galaxy S6 Active">
+                            <h3 title="Samsung Galaxy S6 Active">Samsung Galaxy S6 Active</h3>
+                            <p class="price">6,290,000 đ</p>
+                            <div class="km">
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng&nbsp;USB OTG trị giá 250.000 VND</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;</span><span style="line-height: 20.8px;">Tặng Gậy Tự Sướng trị giá 150.000 VND</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc cáp Samsung trị giá 250.000 VND</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                            </div>
+                          </a>
+                          <a href="samsung-galaxy-s6-active.html" class="more">Xem ngay</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class='item1 nopadding product-grid' >
+                      <div class='boxItem' >
+                        <span class="icon-product" style="background: #db3700; border: 1px solid #ffffff; color:#ffffff;">GIẢM 600 NGÀN</span>
+                        <a href="iphone-5s-lock-16g-may-cu.html" title='Iphone 5s Lock 16G máy cũ (97% - 98%)' ><img  src="http://xtmobile.vn/vnt_upload/product/Hinh_DT/Iphone/iphone_5s/thumbs/(300x300)_crop_iphone-5s-grey.jpg"   alt='Iphone 5s Lock 16G máy cũ (97% - 98%)' title='Iphone 5s Lock 16G máy cũ (97% - 98%)'  /></a>
+                        <h3><a href="iphone-5s-lock-16g-may-cu.html"  title='Iphone 5s Lock 16G máy cũ (97% - 98%)'>Iphone 5s Lock 16G máy cũ (97% - 98%)</a> </h3>
+                        <p class="price">2,990,000 đ</p>
+                        <div class="product-hover">
+                          <a href="iphone-5s-lock-16g-may-cu.html" title="Iphone 5s Lock 16G máy cũ (97% - 98%)">
+                            <h3 title="Iphone 5s Lock 16G máy cũ (97% - 98%)">Iphone 5s Lock 16G máy cũ (97% - 98%)</h3>
+                            <p class="price">2,990,000 đ</p>
+                            <div class="km">
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng dán MH thường 6 tháng trị giá 300.000VND.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc cáp trị giá 250.000 VND.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sim Ghép trị giá 250.000 VND</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                            </div>
+                          </a>
+                          <a href="iphone-5s-lock-16g-may-cu.html" class="more">Xem ngay</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class='item1 nopadding product-grid' >
+                      <div class='boxItem' >
+                        <span class="icon-product" style="background: #0d0c0a; border: 1px solid #faf7f7; color:#faf7f7;">99%</span>
+                        <a href="lg-g4-isai-lgv32-.html" title='LG G4 isai (LGV32 )' ><img  src="http://xtmobile.vn/vnt_upload/product/Hinh_DT/LG/LG-G4-ISAI/thumbs/(300x300)_crop_lg-g4-isai-lgv32-28.jpg"   alt='LG G4 isai (LGV32 )' title='LG G4 isai (LGV32 )'  /></a>
+                        <h3><a href="lg-g4-isai-lgv32-.html"  title='LG G4 isai (LGV32 )'>LG G4 isai (LGV32 )</a> </h3>
+                        <p class="price">4,690,000 đ</p>
+                        <div class="product-hover">
+                          <a href="lg-g4-isai-lgv32-.html" title="LG G4 isai (LGV32 )">
+                            <h3 title="LG G4 isai (LGV32 )">LG G4 isai (LGV32 )</h3>
+                            <p class="price">4,690,000 đ</p>
+                            <div class="km">
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng dán MH thường 6 tháng trị giá 300.000VND.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc cáp trị giá 250.000 VND.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Giảm 20% phụ kiện ( ốp lưng, bao da...).</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Miễn phí 1 năm cài phần mềm.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                            </div>
+                          </a>
+                          <a href="lg-g4-isai-lgv32-.html" class="more">Xem ngay</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class='item1 nopadding product-grid' >
+                      <div class='boxItem' >
+                        <span class="icon-product" style="background: #0d0c0a; border: 1px solid #faf7f7; color:#faf7f7;">99%</span>
+                        <a href="samsung-galaxy-a7.html" title='Samsung Galaxy A7' ><img  src="http://xtmobile.vn/vnt_upload/product/Hinh_DT/SamSung/SAMSUNG-A7/thumbs/(300x300)_crop_Samsung-Galaxy-A7-2.jpg"   alt='Samsung Galaxy A7' title='Samsung Galaxy A7'  /></a>
+                        <h3><a href="samsung-galaxy-a7.html"  title='Samsung Galaxy A7'>Samsung Galaxy A7</a> </h3>
+                        <p class="price">4,990,000 đ</p>
+                        <div class="product-hover">
+                          <a href="samsung-galaxy-a7.html" title="Samsung Galaxy A7">
+                            <h3 title="Samsung Galaxy A7">Samsung Galaxy A7</h3>
+                            <p class="price">4,990,000 đ</p>
+                            <div class="km">
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng dán MH thường 12 tháng trị giá 500.000VND</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Giảm 20% phụ kiện ( ốp lưng, bao da...).</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;</span><span style="line-height: 20.8px;">Miễn phí 1 năm cài phần mềm.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                            </div>
+                          </a>
+                          <a href="samsung-galaxy-a7.html" class="more">Xem ngay</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class='item1 nopadding product-grid' >
+                      <div class='boxItem' >
+                        <span class="icon-product" style="background: #1c0606; border: 1px solid #f2e6e6; color:#f2e6e6;">97%</span>
+                        <a href="samsung-galaxy-s6-edge-plus-may-cu.html" title='Samsung Galaxy S6 Edge Plus (98% - 97%)' ><img  src="http://xtmobile.vn/vnt_upload/product/Hinh_DT/SamSung/SAMSUNG-GALAXY-S6-EDGE-PLUS/thumbs/(300x300)_crop_Samsung-Galaxy-S6-edge-10.jpg"   alt='Samsung Galaxy S6 Edge Plus (98% - 97%)' title='Samsung Galaxy S6 Edge Plus (98% - 97%)'  /></a>
+                        <h3><a href="samsung-galaxy-s6-edge-plus-may-cu.html"  title='Samsung Galaxy S6 Edge Plus (98% - 97%)'>Samsung Galaxy S6 Edge Plus (98% - 97%)</a> </h3>
+                        <p class="price">9,990,000 đ</p>
+                        <div class="product-hover">
+                          <a href="samsung-galaxy-s6-edge-plus-may-cu.html" title="Samsung Galaxy S6 Edge Plus (98% - 97%)">
+                            <h3 title="Samsung Galaxy S6 Edge Plus (98% - 97%)">Samsung Galaxy S6 Edge Plus (98% - 97%)</h3>
+                            <p class="price">9,990,000 đ</p>
+                            <div class="km">
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc Không Dây Samsung S6 599.000 VND</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng&nbsp;USB OTG trị giá 250.000 VND</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;</span><span style="line-height: 20.8px;">Tặng Gậy Tự Sướng trị giá 150.000 VND</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc cáp trị giá 250.000 VND.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                            </div>
+                          </a>
+                          <a href="samsung-galaxy-s6-edge-plus-may-cu.html" class="more">Xem ngay</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class='item1 nopadding product-grid' >
+                      <div class='boxItem' >
+                        <span class="icon-product" style="background: #1c0606; border: 1px solid #f2e6e6; color:#f2e6e6;">97%</span>
+                        <a href="samsung-galaxy-note-5-may-cu.html" title='Samsung Galaxy Note 5 (98% - 97%)' ><img  src="http://xtmobile.vn/vnt_upload/product/Hinh_DT/SamSung/SAMSUNG-GALAXY-NOTE-5/thumbs/(300x300)_crop_Samsung-Galaxy-Note5.jpg"   alt='Samsung Galaxy Note 5 (98% - 97%)' title='Samsung Galaxy Note 5 (98% - 97%)'  /></a>
+                        <h3><a href="samsung-galaxy-note-5-may-cu.html"  title='Samsung Galaxy Note 5 (98% - 97%)'>Samsung Galaxy Note 5 (98% - 97%)</a> </h3>
+                        <p class="price">7,990,000 đ</p>
+                        <div class="product-hover">
+                          <a href="samsung-galaxy-note-5-may-cu.html" title="Samsung Galaxy Note 5 (98% - 97%)">
+                            <h3 title="Samsung Galaxy Note 5 (98% - 97%)">Samsung Galaxy Note 5 (98% - 97%)</h3>
+                            <p class="price">7,990,000 đ</p>
+                            <div class="km">
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng dán MH thường 6 tháng trị giá 300.000VND.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng&nbsp;USB OTG trị giá 250.000 VND</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;</span><span style="line-height: 20.8px;">Tặng Gậy Tự Sướng trị giá 150.000 VND</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc cáp trị giá 250.000 VND.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                            </div>
+                          </a>
+                          <a href="samsung-galaxy-note-5-may-cu.html" class="more">Xem ngay</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class='item1 nopadding product-grid' >
+                      <div class='boxItem' >
+                        <span class="icon-product" style="background: #db3700; border: 1px solid #ffffff; color:#ffffff;">GIẢM 600 NGÀN</span>
+                        <a href="samsung-galaxy-s5-active-xach-tay-uy-tin-tphcm.html" title='Samsung Galaxy S5 Active máy (97%-98%)' ><img  src="http://xtmobile.vn/vnt_upload/product/03_2016/thumbs/(300x300)_crop_Samsung_Galaxy_S5_Active-500x500.jpg"   alt='Samsung Galaxy S5 Active máy (97%-98%)' title='Samsung Galaxy S5 Active máy (97%-98%)'  /></a>
+                        <h3><a href="samsung-galaxy-s5-active-xach-tay-uy-tin-tphcm.html"  title='Samsung Galaxy S5 Active máy (97%-98%)'>Samsung Galaxy S5 Active máy (97%-98%)</a> </h3>
+                        <p class="price">3,950,000 đ</p>
+                        <div class="product-hover">
+                          <a href="samsung-galaxy-s5-active-xach-tay-uy-tin-tphcm.html" title="Samsung Galaxy S5 Active máy (97%-98%)">
+                            <h3 title="Samsung Galaxy S5 Active máy (97%-98%)">Samsung Galaxy S5 Active máy (97%-98%)</h3>
+                            <p class="price">3,950,000 đ</p>
+                            <div class="km">
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng&nbsp;USB OTG trị giá 250.000 VND</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;</span><span style="line-height: 20.8px;">Tặng Gậy Tự Sướng trị giá 150.000 VND</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc cáp Samsung trị giá 250.000 VND</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                            </div>
+                          </a>
+                          <a href="samsung-galaxy-s5-active-xach-tay-uy-tin-tphcm.html" class="more">Xem ngay</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class='item1 nopadding product-grid' >
+                      <div class='boxItem' >
+                        <span class="icon-product" style="background: #1c0606; border: 1px solid #f2e6e6; color:#f2e6e6;">97%</span>
+                        <a href="samsung-galaxy-note4-cu.html" title='Samsung Galaxy Note4 Cũ' ><img  src="http://xtmobile.vn/vnt_upload/product/03_2016/thumbs/(300x300)_crop_preview-Y910.jpg"   alt='Samsung Galaxy Note4 Cũ' title='Samsung Galaxy Note4 Cũ'  /></a>
+                        <h3><a href="samsung-galaxy-note4-cu.html"  title='Samsung Galaxy Note4 Cũ'>Samsung Galaxy Note4 Cũ</a> </h3>
+                        <p class="price">5,290,000 đ</p>
+                        <div class="product-hover">
+                          <a href="samsung-galaxy-note4-cu.html" title="Samsung Galaxy Note4 Cũ">
+                            <h3 title="Samsung Galaxy Note4 Cũ">Samsung Galaxy Note4 Cũ</h3>
+                            <p class="price">5,290,000 đ</p>
+                            <div class="km">
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng dán MH thường 6 tháng trị giá 300.000VND.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc cáp trị giá 250.000 VND.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Giảm 20% phụ kiện ( ốp lưng, bao da...).</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Miễn phí 1 năm cài phần mềm.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                              <div>&nbsp;</div>
+                            </div>
+                          </a>
+                          <a href="samsung-galaxy-note4-cu.html" class="more">Xem ngay</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class='item1 nopadding product-grid' >
+                      <div class='boxItem' >
+                        <span class="icon-product" style="background: #1c0606; border: 1px solid #f2e6e6; color:#f2e6e6;">97%</span>
+                        <a href="samsung-galaxy-note3-may-cu.html" title='Samsung Galaxy Note3 Máy cũ' ><img  src="http://xtmobile.vn/vnt_upload/product/Hinh_DT/SamSung/SAMSUNG_GALAXY_NOTE3/thumbs/(300x300)_crop_222.jpg"   alt='Samsung Galaxy Note3 Máy cũ' title='Samsung Galaxy Note3 Máy cũ'  /></a>
+                        <h3><a href="samsung-galaxy-note3-may-cu.html"  title='Samsung Galaxy Note3 Máy cũ'>Samsung Galaxy Note3 Máy cũ</a> </h3>
+                        <p class="price">3,590,000 đ</p>
+                        <div class="product-hover">
+                          <a href="samsung-galaxy-note3-may-cu.html" title="Samsung Galaxy Note3 Máy cũ">
+                            <h3 title="Samsung Galaxy Note3 Máy cũ">Samsung Galaxy Note3 Máy cũ</h3>
+                            <p class="price">3,590,000 đ</p>
+                            <div class="km">
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng dán MH thường 06 tháng trị giá 300.000VND.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Tặng Sạc cáp trị giá 250.000 VND.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Giảm 20% phụ kiện ( ốp lưng, bao da...).</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Miễn phí 1 năm cài phần mềm.</span></p>
+                              <p style="line-height: 20.8px;"><img alt="gift-box_1" src="http://xtmobile.vn/vnt_upload/product/03_2016/gift-box_1.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;Chiết khấu từ 0.4 - 1.5% cho &nbsp;KH thân thiết.</span></p>
+                            </div>
+                          </a>
+                          <a href="samsung-galaxy-note3-may-cu.html" class="more">Xem ngay</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <div id="extra">
+          <div class="statistic_pro">
+            <div class="container"><a href="dien-thoai.html" target="_self"  >350 điện thoại</a><a href="index.html" target="_self"  >01 máy tính bảng</a><a href="phu-kien.html" target="_self"  >67 phụ kiện</a><a href="may-dung-roi.html" target="_self"  >213 máy đổi trả</a></div>
+          </div>
+          <div class="clear"></div>
+          <div class="keysearch">
+            <div class="container">Tìm nhiều nhất<a href="samsung-galaxy-note-5.html" >• Samsung Galaxy Note 5</a><a href="samsung-galaxy-s7-edge.html" >• Samsung Galaxy S7 Edge</a><a href="lg-v10.html" >• LG V10</a><a href="samsung-galaxy-s6-edge-plus.html" >• Samsung Galaxy S6 Edge Plus</a><a href="samsung-galaxy-s7.html" >• Samsung Galaxy S7</a><a href="ban-dien-thoai-xiaomi-mi-4-gia-re-nhat-tphcm.html" >• Xiaomi Mi 4</a><a href="samsung-galaxy-s6.html" >• Samsung Galaxy S6</a><a href="lg-g4-f500-han-quoc.html" >• LG G4 F500 - Hàn Quốc</a><a href="samsung-galaxy-note4-cu.html" >• Samsung Galaxy Note4 Cũ</a><a href="xiaomi-redmi-note-2.html" >• Xiaomi Redmi Note 2</a></div>
+          </div>
+        </div>
+        <div class='bg_testimonial' style='background: url("http://xtmobile.vn/vnt_upload/weblink/banner/2-2016/long-tin-KH_2.jpg") center top no-repeat;' >
+          <div class="box_testimonials container">
+            <div class='sologan'>Lòng Tin của Khách Hàng là Tài Sản Quý Giá Nhất của chúng tôi</div>
+            <div class='testimonials' id='slider1'>
+              <div id='testimonials_owl' class='viewport owl-carousel owl-theme'>
+                <div class="item">
+                  <div class="image"><img  src="http://xtmobile.vn/vnt_upload/about/thumbs/(95x95)_crop_10511345_610938062359469_4888914226589311592_n.jpg"   alt='Tí Nguyễn' title='Tí Nguyễn'  /></div>
+                  <div class="content">
+                    <div class="message" >
+                      <div class="nhay"><em><span style="font-family:georgia,serif;"><span style="color: rgb(20, 24, 35); font-size: 14px; line-height: 19.3199996948242px;"><a href="https://www.facebook.com/100003298412725/activity/751856811600926" target="_blank">Đã mua Samsung S5 au và Sony Xperia Z3 au tại xtmobile chất lượng tốt hoàn toàn hài lòng về cửa hàng.</a></span></span></em></div>
+                    </div>
+                    <div class="poster">
+                      <b>Tí Nguyễn</b>
+                      <div class="address">Khách hàng mua S5 Au và Z3 Au 05/06/2015</div>
+                    </div>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <div class="item">
+                  <div class="image"><img  src="http://xtmobile.vn/vnt_upload/about/thumbs/(95x95)_crop_11262121_734120673363568_9117994446443447271_n.jpg"   alt='Trần Rạng' title='Trần Rạng'  /></div>
+                  <div class="content">
+                    <div class="message" >
+                      <div class="nhay"><em><span style="font-family:georgia,serif;"><a href="https://www.facebook.com/tranrang111/activity/744911655617803" target="_blank"><span style="color: rgb(20, 24, 35); font-size: 14px; line-height: 19.3199996948242px;">Nhân viên ở XTmobile dễ thương, ấn tượng. Mua máy xách tay lăn tăn về chất lượng, nhưng đến mua ở máy chất khỏi nói luôn. Thích quá</span></a></span></em></div>
+                    </div>
+                    <div class="poster">
+                      <b>Trần Rạng</b>
+                      <div class="address">Khách hàng mua Samsung S5 Au 16/06/2015</div>
+                    </div>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <div class="item">
+                  <div class="image"><img  src="http://xtmobile.vn/vnt_upload/about/thumbs/(95x95)_crop_11401043_705768642884854_2402495846985341479_n.jpg"   alt='Dung Nguyễn' title='Dung Nguyễn'  /></div>
+                  <div class="content">
+                    <div class="message" >
+                      <div class="nhay"><span style="font-size:14px;"><span style="font-family:georgia,serif;"><em><a href="https://www.facebook.com/zun.nguyen.585/activity/698427353618983" target="_blank"><span style="color: rgb(20, 24, 35); line-height: 19.3199996948242px;">Nhân viên phục vụ nhiệt tình, chu đáo, test máy thoải mái!!!</span><br />
+                        <span style="color: rgb(20, 24, 35); line-height: 19.3199996948242px;">Máy tốt, chất lượng!!</span><br />
+                        <span style="color: rgb(20, 24, 35); line-height: 19.3199996948242px;">Sẽ giới thiệu cho nhiều người biết XTmobile.</span></a></em></span></span>
+                      </div>
+                    </div>
+                    <div class="poster">
+                      <b>Dung Nguyễn</b>
+                      <div class="address">Khách hàng mua LG AKA 29/05/2015</div>
+                    </div>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <div class="item">
+                  <div class="image"><img  src="http://xtmobile.vn/vnt_upload/about/thumbs/(95x95)_crop_11204918_774386279340530_802961629625480559_n.jpg"   alt='Tiên Đỗ' title='Tiên Đỗ'  /></div>
+                  <div class="content">
+                    <div class="message" >
+                      <div class="nhay">
+                        <p><em><span style="font-family:georgia,serif;"><a href="https://www.facebook.com/thuytiendo1509/activity/787856924660132" target="_blank"><span style="color: rgb(20, 24, 35); font-size: 14px; line-height: 19.3199996948242px;">Hôm nay mới mua máy Lg G3 Cat6 tại đây. Chất lượng máy ok. </span></a></span></em></p>
+                        <p><em><span style="font-family:georgia,serif;"><a href="https://www.facebook.com/thuytiendo1509/activity/787856924660132" target="_blank"><span style="color: rgb(20, 24, 35); font-size: 14px; line-height: 19.3199996948242px;">Phục vụ tốt. Hậu mãi hấp dẫn.</span></a></span></em></p>
+                      </div>
+                    </div>
+                    <div class="poster">
+                      <b>Tiên Đỗ</b>
+                      <div class="address">Khách hàng mua LG G3 Cat6 04/06/2015</div>
+                    </div>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <div class="item">
+                  <div class="image"><img  src="http://xtmobile.vn/vnt_upload/about/thumbs/(95x95)_crop_Untitled.png"   alt='Hồ Thái' title='Hồ Thái'  /></div>
+                  <div class="content">
+                    <div class="message" >
+                      <div class="nhay"><span style="font-size:14px;"><em><span style="font-family:georgia,serif;"><span style="color: rgb(20, 24, 35); line-height: 18.7600002288818px;">5 sao cho chất lượng máy không</span><span style="color: rgb(20, 24, 35); line-height: 18.7600002288818px;">&nbsp;phải giá rẻ nhất nhưng chưa dính phốt lần nào</span></span></em></span></div>
+                    </div>
+                    <div class="poster">
+                      <b>Hồ Thái</b>
+                      <div class="address">Mua LG GX 27/05/2014</div>
+                    </div>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <div class="item">
+                  <div class="image"><img  src="http://xtmobile.vn/vnt_upload/about/thumbs/(95x95)_crop_10703685_10202563678805461_1294930024203397003_n.jpg"   alt='Quang Trần' title='Quang Trần'  /></div>
+                  <div class="content">
+                    <div class="message" >
+                      <div class="nhay"><em><span style="font-family:georgia,serif;"><a href="https://www.facebook.com/brightsunshine04/activity/10202826970787596" target="_blank"><span style="color: rgb(20, 24, 35); font-size: 14px; line-height: 19.3199996948242px;">Mặc dù giá của shop ko rẻ so với cửa hàng khác nhưng về chất lượng thì mình yên tâm. Vừa xúc con s5 lte-a hồi đầu tuần, xài rất tốt.</span></a></span></em></div>
+                    </div>
+                    <div class="poster">
+                      <b>Quang Trần</b>
+                      <div class="address">Khách hàng mua Galaxy S5 LTE-A 25/10/2014</div>
+                    </div>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <div class="item">
+                  <div class="image"><img  src="http://xtmobile.vn/vnt_upload/about/thumbs/(95x95)_crop_10620602_508167115991736_631325350120658482_n.jpg"   alt='Việt Đức' title='Việt Đức'  /></div>
+                  <div class="content">
+                    <div class="message" >
+                      <div class="nhay"><em><span style="font-family:georgia,serif;"><a href="https://www.facebook.com/iamsone.s9/activity/518029311672183" target="_blank">Phải nói là cửa hàng bán hàng xách tay chất nhất mình từng mua. Tuy xách tay nhưng vẫn chưa bóc tem và chất lượng máy rất tốt. Nếu thời gian sau không có vấn đề gì thì chắc chắn mình sẽ ủng hộ</a>...</span></em></div>
+                    </div>
+                    <div class="poster">
+                      <b>Việt Đức</b>
+                      <div class="address">Mua Samsung Note 4 Ngày 25/01/2015</div>
+                    </div>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <div class="item">
+                  <div class="image"><img  src="http://xtmobile.vn/vnt_upload/about/thumbs/(95x95)_crop_mat-thon.jpg"   alt='Khôi Nguyên' title='Khôi Nguyên'  /></div>
+                  <div class="content">
+                    <div class="message" >
+                      <div class="nhay"><em><span style="font-family:georgia,serif;"><a href="https://www.facebook.com/hehe.banhu/activity/870684816330909" target="_blank"><span style="color: rgb(20, 24, 35); font-size: 14px; line-height: 19.3199996948242px;">Dịch vụ rất tốt, chuyên nghiệp, hậu mãi tốt và có cô bán hàng rất dễ thương, mình mua hơi nhiều nên đã thành khách hàng Gold của cửa hàng, được rất nhiều ưu đãi nha. Like mạnh Xtmobile nhe!!!!!!!</span></a></span></em></div>
+                    </div>
+                    <div class="poster">
+                      <b>Khôi Nguyên</b>
+                      <div class="address">Khách hàng mua Sony Z3 Au 28/5/2015</div>
+                    </div>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <div class="item">
+                  <div class="image"><img  src="http://xtmobile.vn/vnt_upload/about/thumbs/(95x95)_crop_1947786_1460789014236784_715389178208200792_n.jpg"   alt='Anh Hoang' title='Anh Hoang'  /></div>
+                  <div class="content">
+                    <div class="message" >
+                      <div class="nhay"><em><span style="font-family:georgia,serif;"><a href="https://www.facebook.com/100009170973603/activity/1448694448779574" target="_blank"><span style="color: rgb(20, 24, 35); font-size: 14px; line-height: 19.3199996948242px;">Đã nge tiếng xtmobile từ lâu. Bây giờ mới ghé qua mua. Nhân viên lịch sự chào hỏi khách. Máy chất giá rẻ.</span></a></span></em></div>
+                    </div>
+                    <div class="poster">
+                      <b>Anh Hoang</b>
+                      <div class="address">Khách hàng mua Galaxy Note 4 28/05/2015</div>
+                    </div>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <div class="item">
+                  <div class="image"><img  src="http://xtmobile.vn/vnt_upload/about/thumbs/(95x95)_crop_123.png"   alt='Khánh Lý' title='Khánh Lý'  /></div>
+                  <div class="content">
+                    <div class="message" >
+                      <div class="nhay">
+                        <p><span style="font-size:14px;"><em><span style="font-family:georgia,serif;"><a href="https://www.facebook.com/khanhlyquang96/activity/942232839152133">Vừa rồi thì bị lỗi sóng chập chờn, đem lên cho shop sửathì thấy rất ok (miễn phí)&nbsp;thật sự thì khi mua máy (note 3 dcm) mình đã thấy hài lòng rồi, ​ko hiểu sao đi vào&nbsp;có cảm tình test các kiểu đều ok</a>..</span></em></span></p>
+                      </div>
+                    </div>
+                    <div class="poster">
+                      <b>Khánh Lý</b>
+                      <div class="address">Khách mua Samsung Note 3 docomo</div>
+                    </div>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </div>
+            </div>
+            <div class='clear'></div>
+          </div>
+        </div>
+        <div class="container hidden_mobile">
+          <div class="three_box row">
+            <div class="nopadding-left col-md-4 col-sm-4 col-xs-12">
+              <div class="box_footer_gray">
+                <div class="box_title"><span class="fTitle"> Báo chí nói về xtmobile</span></div>
+                <div class="box-content">
+                  <div class="box_news_xtmobile">
+                    <ul>
+                      <li class="item_news">
+                        <a href="tren-tay-galaxy-s6-edge-phien-ban-iron-man-tai-vn-gia-58-trieu-dong.html"><img  src="http://xtmobile.vn/vnt_upload/news/06_2015/05/thumbs/(80x80)_crop_a1.jpg"   alt='Trên tay Galaxy S6 Edge phiên bản Iron Man tại VN, giá 58 triệu đồng' title='Trên tay Galaxy S6 Edge phiên bản Iron Man tại VN, giá 58 triệu đồng'  /></a>
+                        <h3 class="title">
+                        <a href="tren-tay-galaxy-s6-edge-phien-ban-iron-man-tai-vn-gia-58-trieu-dong.html"  title='Trên tay Galaxy S6 Edge phiên bản Iron Man tại VN, giá 58 triệu đồng' >Trên tay Galaxy S6 Edge phiên bản Iron Man tại VN, giá 58 triệu đồng</a>
+                        <p class="short">Nếu là fan hâm mộ của những nhân vật siêu anh hùng trong các bộ truyện của ...</p>
+                        <div class="clear"></div>
+                      </li>
+                      <li class="item_news">
+                        <a href="mo-hop-smartphone-man-hinh-vuong-gia-15-trieu-dong-cua-lg.html"><img  src="http://xtmobile.vn/vnt_upload/news/06_2015/04/thumbs/(80x80)_crop_T6.jpg"   alt='Mở hộp smartphone màn hình vuông giá 15 triệu đồng của LG' title='Mở hộp smartphone màn hình vuông giá 15 triệu đồng của LG'  /></a>
+                        <h3 class="title">
+                        <a href="mo-hop-smartphone-man-hinh-vuong-gia-15-trieu-dong-cua-lg.html"  title='Mở hộp smartphone màn hình vuông giá 15 triệu đồng của LG' >Mở hộp smartphone màn hình vuông giá 15 triệu đồng của LG</a>
+                        <p class="short">LG Optimus Vu 3 vẫn giữ tỉ lệ màn hình 4:3 của những model Vu trước đây và có ...</p>
+                        <div class="clear"></div>
+                      </li>
+                      <li class="item_news">
+                        <a href="-dap-hop-lg-vu-3-dien-thoai-vuong-man-hinh-dep-cau-hinh-ngang-g2.html"><img  src="http://xtmobile.vn/vnt_upload/news/06_2015/04/thumbs/(80x80)_crop_T5.jpg"   alt='[Đập hộp] LG Vu 3:' title='[Đập hộp] LG Vu 3:'  /></a>
+                        <h3 class="title">
+                        <a href="-dap-hop-lg-vu-3-dien-thoai-vuong-man-hinh-dep-cau-hinh-ngang-g2.html"  title='[Đập hộp] LG Vu 3:' >[Đập hộp] LG Vu 3:</a>
+                        <p class="short">Khi&nbsp;LG&nbsp;ra mắt chiếc điện thoại Vu 3, chúng ta đều thấy nó giống như ...</p>
+                        <div class="clear"></div>
+                      </li>
+                    </ul>
+                  </div
+                    >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="box_footer_gray">
+                <div class="box_title"><span class="fTitle"> Tại sao mua máy ở XTmobile</span></div>
+                <div class="box-content">
+                  <div class="box_why_buy_footer">
+                    <table border="0" cellpadding="1" cellspacing="1" style="width: 100%;">
+                      <tbody>
+                        <tr>
+                          <td width="50"><img alt="medal-3_1" src="http://xtmobile.vn/vnt_upload/File/05_2016/medal-3_1_1.png" style="width: 38px; height: 38px;" /></td>
+                          <td>Quy trình kiểm tra sản phẩm chặt chẻ<br />
+                            <span style="color:#ff6601;"><strong>&nbsp;CHẤT LƯỢNG LUÔN LUÔN LÀ SỐ 01</strong></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><img alt="call-center-worker-with-headset" src="http://xtmobile.vn/vnt_upload/File/05_2016/call-center-worker-with-headset_1.png" style="width: 38px; height: 38px;" /></td>
+                          <td>Tư vấn bán hàng chuyên nghiệp, tận tâm<br />
+                            <font color="#ff6601"><b>NHÂN VIÊN LẤY TẤM LÒNG ĐỂ PHỤC VỤ</b></font>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><img alt="ribbon-badge-award" src="http://xtmobile.vn/vnt_upload/File/05_2016/ribbon-badge-award_1.png" style="width: 38px; height: 38px;" /></td>
+                          <td>Đội ngũ kỹ thuật tay nghề có chuyên môn<br />
+                            <font color="#ff6601"><b>CHĂM SÓC SẢN PHẨM HƠN CHÍNH MÌNH</b></font>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><img alt="airplane-travel-around-the-world" src="http://xtmobile.vn/vnt_upload/File/05_2016/airplane-travel-around-the-world_1.png" style="width: 38px; height: 38px;" /></td>
+                          <td>Nhập khẩu trực tiếp từ KOREA, US, JAPAN<br />
+                            <font color="#ff6601"><b>ĐẢM BẢO 100% HÀNG CHÍNH HÃNG</b></font>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><img alt="fast-delivery" src="http://xtmobile.vn/vnt_upload/File/05_2016/fast-delivery_1.png" style="width: 38px; height: 38px;" /></td>
+                          <td>Giao hàng cực nhanh, chính xác<br />
+                            <strong><span style="color:#ff6601;">GIAO HÀNG KHẮP 64 TỈNH THÀNH</span></strong>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><img alt="thumb-up" src="http://xtmobile.vn/vnt_upload/File/05_2016/thumb-up_1.png" style="width: 38px; height: 38px;" /></td>
+                          <td>Cộng đồng đánh giá uy tín, thân thiện<br />
+                            <font color="#ff6601"><b>PHẢN HỒI TỐT TRÊN CÁC DIỄN ĐÀN</b></font>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="nopadding-right col-md-4 col-sm-4 col-xs-12">
+              <div class="box_footer_gray">
+                <div class="box_title"><span class="fTitle"> Cộng đồng khách hàng</span></div>
+                <div class="box-content">
+                  <div class="fb-page" data-href="https://www.facebook.com/XTmobileNo1" data-width="375" data-height="290" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                    <div class="fb-xfbml-parse-ignore">
+                      <blockquote cite="https://www.facebook.com/XTmobileNo1"><a href="https://www.facebook.com/XTmobileNo1">XTMobile Fanpage</a></blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="box_footer">
+              <div class="box_title"><span class="fTitle"> Hoạt Động Của Cửa Hàng XTmobile</span></div>
+              <div class="box-content">
+                <div class='box_customer'>
+                  <div id="owl-customer">
+                    <div class='item' >
+                      <a href='dip-khuyen-mai-gia-soc-note-5-chi-12-990-000-vnd.html'>
+                        <img  src="http://xtmobile.vn/vnt_upload/news/10_2015/11/thumbs/(500x400)_crop_IMG_1386.jpg"   alt='Dịp Khuyến Mãi Giá sốc Note 5 chỉ 12.990.000 VND' title='Dịp Khuyến Mãi Giá sốc Note 5 chỉ 12.990.000 VND'  />
+                        <div class='mask'>
+                          <p>Dịp Khuyến Mãi Giá sốc Note 5 chỉ 12.990.000 VND</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class='item' >
+                      <a href='hau-scandal-chip-snapdragon-810-qualcomm-bat-dau-ngam-don-.html'>
+                        <img  src="http://xtmobile.vn/vnt_upload/news/07_2015/23/thumbs/(500x400)_crop_snapdragon-810-nong-1_1.jpg"   alt='Hậu &#39;scandal&#39; chip Snapdragon 810: Qualcomm bắt đầu &#39;ngấm đòn&#39;' title='Hậu &#39;scandal&#39; chip Snapdragon 810: Qualcomm bắt đầu &#39;ngấm đòn&#39;'  />
+                        <div class='mask'>
+                          <p>Hậu &#39;scandal&#39; chip Snapdragon 810: Qualcomm bắt đầu &#39;ngấm đòn&#39;</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class='item' >
+                      <a href='10-smartphone-doc-dao-nhat-hien-nay.html'>
+                        <img  src="http://xtmobile.vn/vnt_upload/news/07_2015/22/thumbs/(500x400)_crop_lg_flex.jpg"   alt='10 smartphone độc đáo nhất hiện nay' title='10 smartphone độc đáo nhất hiện nay'  />
+                        <div class='mask'>
+                          <p>10 smartphone độc đáo nhất hiện nay</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class='item' >
+                      <a href='top-smartphone-doi-2015-so-huu-kha-nang-quay-phim-4k-chat-khoi-noi-phan-1-.html'>
+                        <img  src="http://xtmobile.vn/vnt_upload/news/07_2015/20/thumbs/(500x400)_crop_lg-g-flex-2-review.jpg"   alt='Top smartphone đời 2015 sở hữu khả năng quay phim 4K &#39;chất khỏi nói&#39; (phần 1)' title='Top smartphone đời 2015 sở hữu khả năng quay phim 4K &#39;chất khỏi nói&#39; (phần 1)'  />
+                        <div class='mask'>
+                          <p>Top smartphone đời 2015 sở hữu khả năng quay phim 4K &#39;chất khỏi nói&#39; (phần 1)</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class='item' >
+                      <a href='tuyen-nhan-vien-ban-hang.html'>
+                        <img  src="http://xtmobile.vn/vnt_upload/news/hinh_san_pham/thumbs/(500x400)_crop_936676_307306066097590_6667972309654528781_n.jpg"   alt='TUYỂN NHÂN VIÊN BÁN HÀNG' title='TUYỂN NHÂN VIÊN BÁN HÀNG'  />
+                        <div class='mask'>
+                          <p>TUYỂN NHÂN VIÊN BÁN HÀNG</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class='item' >
+                      <a href='5-meo-don-gian-de-tiet-kiem-du-lieu-3g-tren-smartphone-android.html'>
+                        <img  src="http://xtmobile.vn/vnt_upload/news/07_2015/14/thumbs/(500x400)_crop_5meodongiandetietkiemdulieumangtrensmartphoneandroid1-480x480.jpg"   alt='5 mẹo đơn giản để tiết kiệm dữ liệu 3G trên smartphone Android' title='5 mẹo đơn giản để tiết kiệm dữ liệu 3G trên smartphone Android'  />
+                        <div class='mask'>
+                          <p>5 mẹo đơn giản để tiết kiệm dữ liệu 3G trên smartphone Android</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class='item' >
+                      <a href='ios-9-dinh-loi-nghiem-trong-o-man-hinh-khoa.html'>
+                        <img  src="http://xtmobile.vn/vnt_upload/news/07_2015/14/thumbs/(500x400)_crop_image-techz-1436766542.jpg"   alt='iOS 9 dính lỗi nghiêm trọng ở màn hình khoá' title='iOS 9 dính lỗi nghiêm trọng ở màn hình khoá'  />
+                        <div class='mask'>
+                          <p>iOS 9 dính lỗi nghiêm trọng ở màn hình khoá</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class='item' >
+                      <a href='galaxy-note-5-vua-duoc-xac-nhan-se-so-huu-bo-nho-ram-khung.html'>
+                        <img  src="http://xtmobile.vn/vnt_upload/news/07_2015/14/thumbs/(500x400)_crop_galaxy-note-5-1.jpg"   alt='Galaxy Note 5 vừa được xác nhận sẽ sở hữu bộ nhớ RAM khủng' title='Galaxy Note 5 vừa được xác nhận sẽ sở hữu bộ nhớ RAM khủng'  />
+                        <div class='mask'>
+                          <p>Galaxy Note 5 vừa được xác nhận sẽ sở hữu bộ nhớ RAM khủng</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class='item' >
+                      <a href='sap-co-dai-chien-robot-ngoai-doi-thuc-vao-thang-6-nam-sau.html'>
+                        <img  src="http://xtmobile.vn/vnt_upload/news/07_2015/13/thumbs/(500x400)_crop_image-1436705923-markii.jpg"   alt='Sắp có đại chiến robot ngoài đời thực vào tháng 6 năm sau' title='Sắp có đại chiến robot ngoài đời thực vào tháng 6 năm sau'  />
+                        <div class='mask'>
+                          <p>Sắp có đại chiến robot ngoài đời thực vào tháng 6 năm sau</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class='item' >
+                      <a href='apple-den-luc-khai-tu-iphone-16-gb.html'>
+                        <img  src="http://xtmobile.vn/vnt_upload/news/07_2015/13/thumbs/(500x400)_crop_shutterstockiphone6storagemusicheadphones.jpg"   alt='Apple, đến lúc khai tử iPhone 16 GB' title='Apple, đến lúc khai tử iPhone 16 GB'  />
+                        <div class='mask'>
+                          <p>Apple, đến lúc khai tử iPhone 16 GB</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class='item' >
+                      <a href='asus-hoan-toan-co-kha-nang-ha-be-apple.html'>
+                        <img  src="http://xtmobile.vn/vnt_upload/news/07_2015/13/thumbs/(500x400)_crop_appl-asus-1-480x480.jpg"   alt='Asus hoàn toàn có khả năng &#39;hạ bệ&#39; Apple' title='Asus hoàn toàn có khả năng &#39;hạ bệ&#39; Apple'  />
+                        <div class='mask'>
+                          <p>Asus hoàn toàn có khả năng &#39;hạ bệ&#39; Apple</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class='item' >
+                      <a href='ro-ri-loat-thong-so-dang-chu-y-cua-bo-doi-bom-tan-lumia-cao-gia-hon-ca-iphone-6.html'>
+                        <img  src="http://xtmobile.vn/vnt_upload/news/07_2015/13/thumbs/(500x400)_crop_microsoft-lumia-940-thong-tin-1.jpg"   alt='Rò rỉ loạt thông số đáng chú ý của bộ đôi &#39;bom tấn&#39; Lumia cao giá hơn cả iPhone 6' title='Rò rỉ loạt thông số đáng chú ý của bộ đôi &#39;bom tấn&#39; Lumia cao giá hơn cả iPhone 6'  />
+                        <div class='mask'>
+                          <p>Rò rỉ loạt thông số đáng chú ý của bộ đôi &#39;bom tấn&#39; Lumia cao giá hơn cả iPhone 6</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class='item' >
+                      <a href='samsung-dang-phat-trien-man-hinh-dien-thoai-11k.html'>
+                        <img  src="http://xtmobile.vn/vnt_upload/news/07_2015/12/thumbs/(500x400)_crop_samsung_man_hinh_11K.jpg"   alt='Samsung đang phát triển màn hình điện thoại 11K' title='Samsung đang phát triển màn hình điện thoại 11K'  />
+                        <div class='mask'>
+                          <p>Samsung đang phát triển màn hình điện thoại 11K</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class='item' >
+                      <a href='5-smartphone-xach-tay-hot-nhat-nua-dau-2015.html'>
+                        <img  src="http://xtmobile.vn/vnt_upload/news/07_2015/12/thumbs/(500x400)_crop_500x400_crop_Screen_Shot_20150615_at_95131_AM.jpg"   alt='5 smartphone xách tay hot nhất nửa đầu 2015' title='5 smartphone xách tay hot nhất nửa đầu 2015'  />
+                        <div class='mask'>
+                          <p>5 smartphone xách tay hot nhất nửa đầu 2015</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class='item' >
+                      <a href='da-co-cach-tang-toc-smartphone-20-lan-keo-dai-tuoi-tho-pin-gan-40-.html'>
+                        <img  src="http://xtmobile.vn/vnt_upload/news/07_2015/12/thumbs/(500x400)_crop_smartphone-tang-toc-2.jpg"   alt='Đã có cách tăng tốc smartphone 20 lần, kéo dài tuổi thọ pin gần 40%' title='Đã có cách tăng tốc smartphone 20 lần, kéo dài tuổi thọ pin gần 40%'  />
+                        <div class='mask'>
+                          <p>Đã có cách tăng tốc smartphone 20 lần, kéo dài tuổi thọ pin gần 40%</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class='item last' >
+                      <a href='-doc-quyen-ro-ri-chiec-smartphone-hang-viet-mong-nhat-hien-nay-voi-thiet-ke-cuc-dep-den-flash-mat-truoc.html'>
+                        <img  src="http://xtmobile.vn/vnt_upload/news/07_2015/10/thumbs/(500x400)_crop_conceptqglam-01.jpg"   alt='[Độc quyền] Rò rỉ chiếc smartphone hàng Việt mỏng nhất hiện nay với thiết kế cực đẹp, đèn flash mặt trước' title='[Độc quyền] Rò rỉ chiếc smartphone hàng Việt mỏng nhất hiện nay với thiết kế cực đẹp, đèn flash mặt trước'  />
+                        <div class='mask'>
+                          <p>[Độc quyền] Rò rỉ chiếc smartphone hàng Việt mỏng nhất hiện nay với thiết kế cực đẹp, đèn flash mặt trước</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="vnt-footer">
+          <div class="info_footer">
+            <div class="container">
+              <div class="menu_mail">
+                <div class="row">
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="menu_footer row">
+                      <div class='col-md-6 col-sm-6 col-xs-12'>
+                        <h2>Hỗ trợ khách hàng</h2>
+                        <p><a href="mua-hang-tra-gop.html" target="_self">Mua hàng trả góp</a></p>
+                        <p><a href="huong-dan-mua-hang-online.html" target="_self">Hướng dẫn mua hàng online</a></p>
+                        <p><a href="1-doi-1.html" target="_self">Bảo hành 1 đổi 1</a></p>
+                        <p><a href="chinh-sach-bao-hanh-2016.html" target="_self">chính sách bảo hành 2016</a></p>
+                        <p><a href="chinh-sach-doi-tra.html" target="_self">Chính sách đổi trả hoàn tiền</a></p>
+                        <p><a href="chinh-sach-van-chuyen-va-giao-hang.html" target="_self">Chính sách vận chuyển và giao hàng</a></p>
+                        <p><a href="chinh-sach-bao-mat-thong-tin.html" target="_self">Chính sách bảo mật thông tin</a></p>
+                        <p><a href="quy-dinh-hinh-thuc-thanh-toan.html" target="_self">Quy định hình thức thanh toán</a></p>
+                      </div>
+                      <div class='col-md-6 col-sm-6 col-xs-12'>
+                        <h2>Xtmobile</h2>
+                        <p><a href="ve-xtmobile.html" target="_self">Về XTmobile</a></p>
+                        <p><a href="tuyen-dung-nhan-su.html" target="_self">Tuyển dụng</a></p>
+                        <p><a href="khuyen-mai.html" target="_self">Khuyến mãi</a></p>
+                        <p><a href="lien-he.html" target="_self">Liên hệ</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="box_address_footer">
+                      <div class="title_address">Hệ thống cửa hàng XTMOBILE</div>
+                      <div class="content">
+                        <p style="padding:0"><span style="color:#ff6600;"><strong><img alt="location-pin" src="http://xtmobile.vn/vnt_upload/File/03_2016/location-pin.png" style="width: 16px; height: 16px;" />&nbsp;</strong></span>650 Lê Hồng Phong, P.10, Q.10 Hồ Chí Minh&nbsp;&nbsp;<img alt="old-typical-phone" src="http://xtmobile.vn/vnt_upload/File/03_2016/old-typical-phone.png" style="width: 16px; height: 16px;" /> &nbsp;<span style="line-height: 20.8px;"><a href="tel:0938 883 644">0938 883 644</a>&nbsp;-&nbsp;</span><a href="tel:0933 888 634" style="line-height: 20.8px;">0933 888 154</a></p>
+                        <p style="padding:0"><strong style="line-height: 20.8px; color: rgb(255, 102, 0);"><img alt="location-pin" src="http://xtmobile.vn/vnt_upload/File/03_2016/location-pin.png" style="width: 16px; height: 16px;" />&nbsp;</strong><span style="line-height: 20.8px;">421 Hoàng Văn Thụ,&nbsp;</span><span style="line-height: 20.8px;">Hồ Chí Minh&nbsp;&nbsp;</span><img alt="old-typical-phone" src="http://xtmobile.vn/vnt_upload/File/03_2016/old-typical-phone.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 20.8px;">&nbsp;<a href="tel:0907 678797">0907 678797</a>&nbsp;-&nbsp;</span><a href="tel:0933 888 634">0933 888 634</a>&nbsp;</p>
+                        <p><strong style="color: rgb(255, 102, 0); line-height: 20.8px;"><img alt="location-pin" src="http://xtmobile.vn/vnt_upload/File/03_2016/location-pin.png" style="width: 16px; height: 16px;" /></strong>169 Hoàng Diệu, &nbsp;Q.&nbsp;Hải Châu, Đà Nẵng&nbsp;<img alt="old-typical-phone" src="http://xtmobile.vn/vnt_upload/File/03_2016/old-typical-phone.png" style="line-height: 20.8px; width: 16px; height: 16px;" />&nbsp;<a href="tel:0901 9 63 222">0901 9 63 222</a> -&nbsp;<span style="line-height: 20.8px;"><a href="tel:01688 168 169">01688 168 169</a></span><span style="line-height: 1.6em; color: rgb(255, 255, 255);">&nbsp;</span></p>
+                        <p><strong style="line-height: 20.8px; color: rgb(255, 102, 0);"><img alt="location-pin" src="http://xtmobile.vn/vnt_upload/File/03_2016/location-pin.png" style="width: 16px; height: 16px;" />&nbsp;</strong>757 Tôn Đức Thắng ,Q. Liên Chiểu ,&nbsp;Đà Nẵng &nbsp;<img alt="old-typical-phone" src="http://xtmobile.vn/vnt_upload/File/03_2016/old-typical-phone.png" style="line-height: 20.8px; width: 16px; height: 16px;" />&nbsp;<span style="line-height: 20.8px;"><a href="tel:01688 168 169">01688 168 169</a></span></p>
+                        <p><img alt="screwdriver-and-wrench-crossed" src="http://xtmobile.vn/vnt_upload/File/05_2016/screwdriver-and-wrench-crossed.png" style="width: 16px; height: 16px;" />&nbsp; Dịch Vụ Bảo Hành &nbsp;<img alt="old-typical-phone" src="http://xtmobile.vn/vnt_upload/File/03_2016/old-typical-phone.png" style="line-height: 20.8px; width: 16px; height: 16px;" />&nbsp; <span style="line-height: 20.8px;">&nbsp;</span><a href="tel:0933 888 634">0933 888 154</a></p>
+                        <p><img alt="clerk-with-tie" src="http://xtmobile.vn/vnt_upload/File/03_2016/clerk-with-tie.png" style="line-height: 1.6em; width: 16px; height: 16px;" /><span style="line-height: 1.6em;">&nbsp;Phản hồi ý kiến chất lượng dịch vụ ( 24/24 )&nbsp;</span><img alt="old-typical-phone" src="http://xtmobile.vn/vnt_upload/File/03_2016/old-typical-phone.png" style="line-height: 20.8px; width: 16px; height: 16px;" /><span style="line-height: 1.6em;">&nbsp;</span><a href="tel:090 941 0102" style="line-height: 1.6em;">090 941 0102</a>&nbsp;</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="address_social">
+                <div class="row">
+                  <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="box_address_footer">
+                      <div class="title_address">Chấp nhận thanh toán</div>
+                      <div class="content">
+                        <img src="http://xtmobile.vn/skins/default/images/payment.png" alt="payment" />
+                        <p><a target="_blank" href="http://online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=22456"> <img src="http://xtmobile.vn/skins/default/images/dathongbao.png" alt="bo cong thuong"/></a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="box_address_footer">
+                      <div class="title_address">Liên kết mạng xã hội</div>
+                      <div class="content">
+                        <div class="social_network"><a href='https://www.facebook.com/XTmobileNo1' target='_blank' ><img src='http://xtmobile.vn/vnt_upload/weblink/facebook-logo-in-circular-button-outlined-social-symbol.png' /></a> &nbsp; <a href='http://' target='_blank' ><img src='http://xtmobile.vn/vnt_upload/weblink/google-plus-circular-button.png' /></a> &nbsp; <a href='https://www.youtube.com/user/xtmobileNo1' target='_blank' ><img src='http://xtmobile.vn/vnt_upload/weblink/youtube-logo.png' /></a> &nbsp; <a href='https://www.facebook.com/XTmobileNo1/messages/?section=messages&subsection=inbox&threadid=100005436793216&mercurythreadid=user:100005436' target='_blank' ><img src='http://xtmobile.vn/vnt_upload/weblink/viber-logo.png' /></a> &nbsp; </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="newletter">
+                      <script type="text/javascript">
+                        function check_maillist (f){
+                          var re =/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,5})$/gi;
+                          var f_email = f.f_email.value;
+                            if (f_email == "")  {
+                            alert("Vui lòng nhập email");
+                            f.f_email.focus();
+                            return false;
+                          }
+                          
+                            if (f_email != "" && f_email.match(re)==null)   {
+                            alert("Email không hợp lệ");
+                            f.f_email.focus();
+                            return false;
+                          }
+                        }
+                      </script>
+                      <div class="box_mailist">
+                        <div class="title_mail">Hãy cho chúng tôi chia sẻ những giá trị trên cả tuyệt vời đến với bạn sớm nhất</div>
+                        <form method="post" action="" name="fMaillList"  onsubmit="return check_maillist(this);"  >
+                          <input type="text" name="f_name" id="f_name" class="f_email" value="" placeholder="Họ và Tên" />
+                          <input type="text" name="f_email" id="f_email" class="f_email" value="" placeholder="Email" />
+                          <button  id="btn_mail" name="btn_mail" type="submit" class="btn_mail" value="Send" ><span>Send</span></button>
+                          <input name="do_maillist" type="hidden" value="1" />
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="div_copyright">
+                <p class="responsive-switch">
+                  <a href="index.html#" class="rs-link" data-link-desktop="Switch to desktop version" data-link-responsive="Switch to responsive / mobile version" data-always-visible="true"></a>
+                </p>
+                <span class="copyright">Cửa hàng điện thoại XT Mo-bi-le GPĐKKD số 41J80212161 do UBNN Quận 10 Cấp ngày 08/07/2014 sửa đổi ngày 16/10/2014<br>Designer: Ms Chi, Coder: Mr Cường</span>
+                <p class="note_slogan_footer">XTmobile - Chuyên Bán Lẻ - Nhận Order- Ship Hàng Trực Tiếp Từ Hàn Quốc</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="oo_tab" class="oo_tab_right">
+          <a class="feedback-top" title="Góp ý" href="javascript:void(0)" onclick="popupFeedback();"></a>
+          <span></span>
+        </div>
+        <div class="call_us hidden-md hidden-lg">
+          <a href="tel:0933888634"></a>
+        </div>
+        <a class="back-top" title="Lên trên" href="javascript:void(0);">
+        <span>Lên trên</span>
+        </a>
+      </div>
+      <nav id="mmenu">
+      <ul
+        class="dropdown">
+        <li id='menu_100'><a href="trang-chu.html" target="_self">Trang chủ</a></li>
+        <li id='menu_101'>
+          <a href="dien-thoai.html" target="_self">Điện thoại</a>
+          <ul>
+            <li class="first" ><a href="LG.html" target="_self"  ><span>LG</span></a></li>
+            <li><a href="SAMSUNG.html" target="_self"  ><span>Samsung</span></a></li>
+            <li><a href="dien-thoai/index-osID=11.html" target="_self"  ><span>Apple</span></a></li>
+            <li><a href="HTC.html" target="_self"  ><span>HTC</span></a></li>
+            <li><a href="SKY.html" target="_self"  ><span>SKY</span></a></li>
+            <li><a href="xiaomi.html" target="_self"  ><span>Xiaomi</span></a></li>
+            <li><a href="oppo.html" target="_self"  ><span>Oppo</span></a></li>
+            <li><a href="iphone-6.html" target="_self"  ><span>Iphone 6</span></a></li>
+            <li><a href="iphone-6-plus.html" target="_self"  ><span>Iphone 6 Plus</span></a></li>
+            <li><a href="iphone-6s.html" target="_self"  ><span>Iphone 6s</span></a></li>
+            <li><a href="iphone-6s-plus-2015.html" target="_self"  ><span>Iphone 6s Plus</span></a></li>
+            <li><a href="iphone-5-5s-5c.html" target="_self"  ><span>Iphone 5-5c-5s</span></a></li>
+            <li><a href="Sony.html" target="_self"  ><span>Sony</span></a></li>
+            <li><a href="asus.html" target="_self"  ><span>Asus</span></a></li>
+            <li><a href="casio.html" target="_self"  ><span>Casio</span></a></li>
+            <li><a href="luna.html" target="_self"  ><span>Luna</span></a></li>
+            <div class="clear"></div>
+          </ul>
+        </li>
+        <li id='menu_102'><a href="may-tinh-bang.html" target="_self">Máy tính bảng</a></li>
+        <li id='menu_103'><a href="phu-kien.html" target="_self">Phụ kiện</a></li>
+        <li id='menu_104'><a href="may-dung-roi.html" target="_self">Máy dùng rồi</a></li>
+        <li id='menu_105'><a href="index.html" target="_self">Dịch vụ</a></li>
+        <li id='menu_106'><a href="v2/mua-hang-tra-gop.html" target="_self">Bán trả góp</a></li>
+        <li id='menu_107'><a href="khuyen-mai.html" target="_self">Khuyến mãi</a></li>
+        <li id='menu_108'>
+          <a href="tin-tuc.html" target="_self">Tin tức</a>
+          <ul>
+            <li class="first" ><a href="bao-chi-noi-ve-xtmobile.html" target="_self"  ><span>Báo chí nói về XTmobile</span></a></li>
+            <li><span class='sub_title'>Hoạt động cửa hàng</span></li>
+            <li><span class='sub_title'>Sản phẩm mới ra mắt</span></li>
+            <div class="clear"></div>
+          </ul>
+        </li>
+        <li id='menu_109'><a href="gioi-thieu.html" target="_self">Giới thiệu</a></li>
+        <li id='menu_110'><a href="bang-gia.html" target="_self">Bảng giá</a></li>
+        <li id='menu_118'>
+          <a href="video.html" target="_self">Video</a>
+          <ul>
+            <li class="first" ><a href="video/gioi-thieu-san-pham-moi-1.html" target="_self"  ><span>Giới thiệu sản phẩm mới</span></a></li>
+            <li><a href="video/dap-hop-va-tren-tay-2.html" target="_self"  ><span>Đập hộp và trên tay</span></a></li>
+            <li><a href="video/tren-tay-va-dung-thu-3.html" target="_self"  ><span>Đánh giá và trải nghiệm</span></a></li>
+            <div class="clear"></div>
+          </ul>
+        </li>
+        <li id='menu_111'><a href="lien-he.html" target="_self">Liên hệ</a></li>
+      </ul>
+      </navdiv i
+      d="floating_banner_left" style="overflow: hidden; position: absolute; top: 0px; ">
+      <div id="floating_banner_left_content"></div>
+    </div>
+    <div id="floating_banner_right" style="overflow: hidden; position: absolute; top: 0px;" >
+      <div id="floating_banner_right_content"></div>
+    </div>
+    <script type="text/javascript">
+      // $(window).load(function(){ initLoaded(); });
+      // var slideTime = 700;
+      // var rootWidth = 1170;
+      // var floatAtBottom = false;
+      // function Ad_floating_init()
+      // {
+      //   xMoveTo('floating_banner_right', rootWidth - (rootWidth-screen.width), 0);
+      //   xMoveTo('floating_banner_left', rootWidth - (screen.width), 0);
+      //   winOnResize(); // set initial position
+      //   xAddEventListener(window, 'resize', winOnResize, false);
+      //   xAddEventListener(window, 'scroll', winOnScroll, false);
+      // }
+      // function winOnResize() {
+      //   checkScreenWidth();
+      //   winOnScroll(); // initial slide
+      // }
+      // function winOnScroll() {
+      //   var y = xScrollTop();
+      //     if( y<=135 ) y=135;
+      //   if (floatAtBottom) {
+      //     y += xClientHeight() - xHeight('floating_banner_left');
+      //   }
+      //   xSlideTo('floating_banner_left', (screen.width - rootWidth)/2 - (110 +15) , y, slideTime);
+      //   xSlideTo('floating_banner_right', (screen.width + rootWidth)/2 - 2 , y, slideTime);
+      // }
+      // function checkScreenWidth()
+      // {
+      //   if( screen.width <= 1230 )
+      //   {
+      //     document.getElementById('floating_banner_left').style.display = 'none';
+      //     document.getElementById('floating_banner_right').style.display = 'none';
+      //   }
+      // }
+      // Ad_floating_init();
+    </script>
+    <script>
+      // window.fbAsyncInit = function() {
+      // FB.init({
+      // appId      : '805937266142547',
+      // xfbml      : true,
+      // version    : 'v2.5'
+      // });
+      // };
+      // (function(d, s, id){
+      // var js, fjs = d.getElementsByTagName(s)[0];
+      // if (d.getElementById(id)) {return;}
+      // js = d.createElement(s); js.id = id;
+      // js.src = "//connect.facebook.net/en_US/sdk.js";
+      // fjs.parentNode.insertBefore(js, fjs);
+      // }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div id="fb-root"></div>
+    <script>
+    // (function(d, s, id) {
+    //   var js, fjs = d.getElementsByTagName(s)[0];
+    //   if (d.getElementById(id)) return;
+    //   js = d.createElement(s); js.id = id;
+    //   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=805937266142547";
+    //   fjs.parentNode.insertBefore(js, fjs);
+    //   }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+      // !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      // n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      // n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      // t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+      // document,'script','//connect.facebook.net/en_US/fbevents.js');
+      // fbq('init', '237292579800062');
+      // fbq('track', "PageView");
+    </script>
+    <!-- <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=237292579800062&ev=PageView&noscript=1"/></noscript> -->
+    <!-- End Facebook Pixel Code -->
+    <!-- Google Tag Manager -->
+    <!-- <noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-MH72T5"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+    <script>
+    // (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    //   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    //   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    //   '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    //   })(window,document,'script','dataLayer','GTM-MH72T5');
+    </script>
+    <!-- End Google Tag Manager -->
+    <script>
+      // (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      // (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      // m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      // })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      // ga('create', 'UA-64224215-1', 'auto');
+      // ga('send', 'pageview');
+    </script>
+    <!--Start of Zopim Live Chat Script-->
+    <script type="text/javascript">
+      // window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+      // d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+      // _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+      // $.src="//v2.zopim.com/?36UyqE5ub2k9kMIovarqCkqu0bz0CMyB";z.t=+new Date;$.
+      // type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+    </script>
+    <!--End of Zopim Live Chat Script-->
+    <!-- Facebook Pixel Code -->
+    <script>
+      // !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      // n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      // n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      // t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+      // document,'script','//connect.facebook.net/en_US/fbevents.js');
+      // fbq('init', '789505624516526');
+      // fbq('track', "PageView");
+    </script>
+    <!-- <noscript><img height="1" width="1" style="display:none"src="https://www.facebook.com/tr?id=789505624516526&ev=PageView&noscript=1"/></noscript> -->
+    <!-- End Facebook Pixel Code -->
+    <script>
+      // (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      // (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      // m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      // })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      // ga('create', 'UA-64070434-1', 'auto');
+      // ga('send', 'pageview');
+    </script>
+  </body>
+</html>

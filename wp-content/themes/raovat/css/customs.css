@@ -1,0 +1,155 @@
+body{
+  padding: 0px
+}
+.wrapper{
+  padding-top: 25px
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+  padding-left: 2px;
+  padding-right: 2px
+}
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.top-classifieds, .new-classifieds{
+  padding:0px;
+}
+
+.classifieds-table tr:first{
+  border: none;
+}
+.navbar-fixed-top-custom {
+  background-color: #449D44;
+  border-radius: 0px;
+  margin-bottom: -20px;
+  border:none;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  padding: 5px 0px 0px 0px;
+  border-bottom: 1px dashed #ddd;
+  border-top: none;
+}
+.awpcp-textarea, .textareainput, .inputbox {
+  width: 100% !important;
+}
+#wp-ad-details-editor-container{
+  border: solid 1px #dddddd;
+}
+#mceu_33{
+  border-right: solid 1px #dddddd;
+}
+.adverts-form-aligned .adverts-control-group > label{
+  width: 25% !important;
+}
+.adverts-form input[type="text"], .adverts-form input[type="password"], .adverts-form input[type="email"], .adverts-form input[type="url"], .adverts-form input[type="date"], .adverts-form input[type="month"], .adverts-form input[type="time"], .adverts-form input[type="datetime"], .adverts-form input[type="datetime-local"], .adverts-form input[type="week"], .adverts-form input[type="number"], .adverts-form input[type="search"], .adverts-form input[type="tel"], .adverts-form input[type="color"], .adverts-form select, .adverts-form textarea{
+  width: 71% !important;
+}
+.adverts-form.adverts-form-aligned .adverts-control-group > div.adverts-multiselect-holder{
+  width: 71% !important;
+}
+.adverts-form-aligned #adverts-plupload-upload-ui{
+  width: 71% !important;
+}
+.adverts-form.adverts-form-aligned .adverts-control-group > div{
+  width: 71% !important;
+}
+.single_post img{
+  width: 100%;
+}
+#widget_sp_image-6, #widget_sp_image-5{
+  left: auto !important;
+}
+.thumbnail .caption {
+  padding: 9px 0;
+}
+.adverts-grid .adverts-grid-row > div{
+  padding: 0 !important;
+}
+.vcenter {
+    vertical-align: middle;
+}
+.navbar {
+    border-radius: 0px;
+}
+.panel{
+    border-radius: 0px;
+}
+.panel-heading{
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  font-weight: bold; 
+}
+.panel-primary{
+      border-color: #3850FF;
+}
+.panel-primary>.panel-heading{
+    color: #fff;
+    background-color: #3850FF;
+    border-color: #3850FF;
+}
+.footer-height{
+  border-bottom: 1px solid #E7E7E7;
+}
+.theChampSharingRound{
+  padding-top: 2px !important;
+}
+.theChampSharingRound:first{
+  padding-left: 217px;
+}
+.navbar-brand,.navbar-nav li a {
+    line-height: 38px;
+    height: 38px;
+    padding-top: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+@media (max-width:767px) {
+  .navbar-collapse li a {
+      border-bottom: 1px solid oldlace;
+      padding-left: 15px;
+  }
+  .navbar-right li:last-child a {
+      border-bottom: none;
+  }
+  .navbar-nav{
+    margin:0;
+  }
+}
+#menu-rao-vat li a{
+  font-weight: bold;
+}
+.navbar-fixed-top-custom #navbar {
+  padding: 0;
+}
+.btn-social {
+  width:222px; 
+  margin: 5px;
+}
+@media (max-width:767px) {
+  .btn-social, .adverts-form select, .adverts-form input[type="text"], .adverts-form-aligned #adverts-plupload-upload-ui, .adverts-form.adverts-form-aligned .adverts-control-group > div.adverts-multiselect-holder, .adverts-form.adverts-form-aligned .adverts-control-group > div.adverts-autocomplete-holder, .adverts-form.adverts-form-aligned .adverts-control-group > div{
+    width:100% !important;
+    margin-left: 0px;
+  }
+  .mobile-review-center{
+    text-align:center
+  }
+}
+.navbar-collapse {
+  max-height: 340px;
+}
+.tin_vip tr div.media-body h5 a{
+  color: #0033CC !important;
+  font-weight: bold;
+}
+.tin_vip tr:hover {
+    background-color: #EEFFCC !important;
+    cursor: pointer;
+}
+.tin_binh_thuong tr:hover {
+   cursor: pointer;
+}
+.adverts-list .media:hover {
+  background-color: #EEFFCC !important;
+  cursor: pointer;
+}

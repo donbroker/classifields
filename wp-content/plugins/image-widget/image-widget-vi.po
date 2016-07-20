@@ -1,0 +1,176 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Image Widget\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Tue May 17 2016 09:35:47 GMT+0700 (ICT)\n"
+"PO-Revision-Date: Tue May 17 2016 09:37:32 GMT+0700 (ICT)\n"
+"Last-Translator: admin <vodongnhut@gmail.com>\n"
+"Language-Team: \n"
+"Language: Vietnamese\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: vi_VN\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "Image Widget"
+msgstr "Hình ảnh"
+
+#. URI of the plugin
+msgid "http://wordpress.org/extend/plugins/image-widget"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"A simple image widget that uses the native WordPress media manager to add "
+"image widgets to your site."
+msgstr ""
+
+#. Author of the plugin
+msgid "Modern Tribe, Inc."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://m.tri.be/26"
+msgstr ""
+
+#: /image-widget.php:38
+msgid "Showcase a single image with a Title, URL, and a Description"
+msgstr ""
+
+#: /image-widget.php:75 /views/widget-admin.php:13
+msgid "Select an Image"
+msgstr "Chọn hình"
+
+#: /image-widget.php:76 /lib/ImageWidgetDeprecated.php:66
+msgid "Insert Into Widget"
+msgstr ""
+
+#: /image-widget.php:344
+msgid "Full Size"
+msgstr ""
+
+#: /image-widget.php:345
+msgid "Thumbnail"
+msgstr ""
+
+#: /image-widget.php:346
+msgid "Medium"
+msgstr ""
+
+#: /image-widget.php:347
+msgid "Large"
+msgstr ""
+
+#: /image-widget.php:348
+msgid "Custom"
+msgstr ""
+
+#: /image-widget.php:425
+#, php-format
+msgid ""
+"Thanks for upgrading the Image Widget! If you like this plugin, please "
+"consider <a href=\"%s\" target=\"_blank\">rating it</a> and maybe even check out "
+"our premium plugins including our <a href=\"%s\" target=\"_blank\">Events "
+"Calendar Pro</a>!"
+msgstr ""
+
+#: /image-widget.php:440
+#, php-format
+msgid ""
+"Check out our other <a href=\"%s\" target=\"_blank\">plugins</a> including our "
+"<a href=\"%s\" target=\"_blank\">Events Calendar Pro</a>!"
+msgstr ""
+
+#: /views/widget-admin.deprecated.php:10 /views/widget-admin.php:23
+msgid "Title"
+msgstr ""
+
+#: /views/widget-admin.deprecated.php:13
+msgid "Image"
+msgstr "Hình"
+
+#: /views/widget-admin.deprecated.php:17
+msgid "Change Image"
+msgstr "Thay đổi hình"
+
+#: /views/widget-admin.deprecated.php:17
+msgid "Add Image"
+msgstr "Thêm hình"
+
+#: /views/widget-admin.deprecated.php:25 /views/widget-admin.php:33
+msgid "Caption"
+msgstr ""
+
+#: /views/widget-admin.deprecated.php:28 /views/widget-admin.php:36
+msgid "Link"
+msgstr ""
+
+#: /views/widget-admin.deprecated.php:31 /views/widget-admin.php:41
+msgid "Stay in Window"
+msgstr ""
+
+#: /views/widget-admin.deprecated.php:32 /views/widget-admin.php:42
+msgid "Open New Window"
+msgstr ""
+
+#: /views/widget-admin.deprecated.php:35 /views/widget-admin.php:62
+msgid "Width"
+msgstr ""
+
+#: /views/widget-admin.deprecated.php:38 /views/widget-admin.php:65
+msgid "Height"
+msgstr ""
+
+#: /views/widget-admin.deprecated.php:41 /views/widget-admin.php:70
+msgid "Align"
+msgstr ""
+
+#: /views/widget-admin.deprecated.php:43 /views/widget-admin.php:72
+msgid "none"
+msgstr ""
+
+#: /views/widget-admin.deprecated.php:44 /views/widget-admin.php:73
+msgid "left"
+msgstr ""
+
+#: /views/widget-admin.deprecated.php:45 /views/widget-admin.php:74
+msgid "center"
+msgstr ""
+
+#: /views/widget-admin.deprecated.php:46 /views/widget-admin.php:75
+msgid "right"
+msgstr ""
+
+#: /views/widget-admin.deprecated.php:49 /views/widget-admin.php:26
+msgid "Alternate Text"
+msgstr ""
+
+#: /views/widget-admin.php:29
+msgid "Related"
+msgstr ""
+
+#: /views/widget-admin.php:31
+msgid ""
+"A recommended HTML5 related terms list is availlable <a href=\"http:"
+"//microformats.org/wiki/existing-rel-values#HTML5_link_type_extensions\" "
+"target=\"_blank\">here</a>."
+msgstr ""
+
+#: /views/widget-admin.php:38
+msgid "Link ID"
+msgstr ""
+
+#: /views/widget-admin.php:50
+msgid "Size"
+msgstr ""
